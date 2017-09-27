@@ -1,0 +1,8 @@
+{
+    "url": "https://github.com/maheshwaghmare/sublime-wordpress-code-reference",
+    "description": "Sublime Text 3 WordPress Code Reference package",
+    "version": "1.0.0",
+    "dependencies": [],
+    "platforms": ["*"],
+    "sublime_text": "*"
+}
