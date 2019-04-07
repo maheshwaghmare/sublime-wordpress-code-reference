@@ -2,52 +2,60 @@
 
 Sublime WordPress Code Reference - Search the codebase for documentation build with devhub https://developer.wordpress.org/.
 
-Generated from WordPress 5.1.1
+Generated from WordPress version `5.1.1`. This version contain files `640` .php files and auto generate below sublime snippets.
+
+- [x] Constants (count 1026) @maheshwaghmare
+- [ ] Functions
+- [ ] Actions
+- [ ] Filters
 
 ### Summery
 
+Type | Count
+------------ | -------------
+CONSTANTS | 1026 |
 
-----------------------------
-| CONSTANTS | 1026
-----------------------------
-
-### CONSTANT Files:
+### CONSTANTS
 
 In WordPress version 5.1.1 there are `1026` **CONSTANTS**.
 
-To use the constant I have created 2 files
+#### Defining Constants
 
-1. define-constants.sublime-completions
+You can define the constants like:
 
-This file contain constant names and it auto complete only constant name.
+![GIF](https://i.imgur.com/V50s0tM.gif)
 
-http://tinyurl.com/y4rnpc6g
+**Example 1:**
 
-https://i.imgur.com/V2GOPK8.png
+1. If you type `WP_INSTALLING`
+2. Then it show ![Example](https://i.imgur.com/V2GOPK8.png)
+3. On click on it return `define( 'WP_INSTALLING', true );`
 
-https://i.imgur.com/QpVnMRX.png
+**Example 2:**
 
-E.g.
-
-1. If you type `WP_INSTALLING` then it return `define( 'WP_INSTALLING', true );`
-2. If you type `PCLZIP_TEMPORARY_FILE_RATIO` then it return `define( 'PCLZIP_TEMPORARY_FILE_RATIO', 0.47 );`
+1. If you type `PCLZIP_TEMPORARY_FILE_RATIO`
+2. then it show ![Example](https://i.imgur.com/QpVnMRX.png)
+3. On click on it return `define( 'PCLZIP_TEMPORARY_FILE_RATIO', 0.47 );`
 
 ----
 
-2. use-constants.sublime-completions
+#### Using Constants
 
-This file contain only constant names and it auto complete only constant name.
+You can use the constants like:
 
-http://tinyurl.com/y2kbot6l
+![GIF](https://i.imgur.com/HcihE7N.gif)
 
-https://i.imgur.com/oNTrJIM.png
+**Example 1:**
 
-https://i.imgur.com/uB2SxYs.png
+1. If you type `WP_INSTALLING`
+2. Then it show ![Example](https://i.imgur.com/oNTrJIM.png)
+3. On click on it return `WP_INSTALLING`
 
-E.g.
+**Example 2:**
 
-1. If you type `WP_INSTALLING` then it return `WP_INSTALLING`
-2. If you type `PCLZIP_TEMPORARY_FILE_RATIO` then it return `PCLZIP_TEMPORARY_FILE_RATIO`
+1. If you type `PCLZIP_TEMPORARY_FILE_RATIO`
+2. then it show ![Example](https://i.imgur.com/uB2SxYs.png)
+3. On click on it return `PCLZIP_TEMPORARY_FILE_RATIO`
 
 ----
 
