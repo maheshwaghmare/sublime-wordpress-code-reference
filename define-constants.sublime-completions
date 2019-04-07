@@ -1,0 +1,2571 @@
+{
+    "scope": "source.php - variable.other.php",
+    "comment": "Define Constants (1026)",
+    "completions": [
+        "WP_USE_THEMES",
+        {
+            "trigger": "WP_USE_THEMES\tWP Define Constants",
+            "contents": "define( 'WP_USE_THEMES', ${1:true} );"
+        },
+        "WP_INSTALLING",
+        {
+            "trigger": "WP_INSTALLING\tWP Define Constants",
+            "contents": "define( 'WP_INSTALLING', ${1:true} );"
+        },
+        "DOING_AJAX",
+        {
+            "trigger": "DOING_AJAX\tWP Define Constants",
+            "contents": "define( 'DOING_AJAX', ${1:true} );"
+        },
+        "WP_ADMIN",
+        {
+            "trigger": "WP_ADMIN\tWP Define Constants",
+            "contents": "define( 'WP_ADMIN', ${1:true} );"
+        },
+        "WP_NETWORK_ADMIN",
+        {
+            "trigger": "WP_NETWORK_ADMIN\tWP Define Constants",
+            "contents": "define( 'WP_NETWORK_ADMIN', ${1:false} );"
+        },
+        "WP_USER_ADMIN",
+        {
+            "trigger": "WP_USER_ADMIN\tWP Define Constants",
+            "contents": "define( 'WP_USER_ADMIN', ${1:false} );"
+        },
+        "WP_BLOG_ADMIN",
+        {
+            "trigger": "WP_BLOG_ADMIN\tWP Define Constants",
+            "contents": "define( 'WP_BLOG_ADMIN', ${1:true} );"
+        },
+        "WP_LOAD_IMPORTERS",
+        {
+            "trigger": "WP_LOAD_IMPORTERS\tWP Define Constants",
+            "contents": "define( 'WP_LOAD_IMPORTERS', ${1:true} );"
+        },
+        "WP_IMPORTING",
+        {
+            "trigger": "WP_IMPORTING\tWP Define Constants",
+            "contents": "define( 'WP_IMPORTING', ${1:true} );"
+        },
+        "IFRAME_REQUEST",
+        {
+            "trigger": "IFRAME_REQUEST\tWP Define Constants",
+            "contents": "define( 'IFRAME_REQUEST', ${1:true} );"
+        },
+        "CRLF",
+        {
+            "trigger": "CRLF\tWP Define Constants",
+            "contents": "define( 'CRLF', ${1:\"\\r\\n\"} );"
+        },
+        "FTP_AUTOASCII",
+        {
+            "trigger": "FTP_AUTOASCII\tWP Define Constants",
+            "contents": "define( 'FTP_AUTOASCII', ${1:-1} );"
+        },
+        "FTP_BINARY",
+        {
+            "trigger": "FTP_BINARY\tWP Define Constants",
+            "contents": "define( 'FTP_BINARY', ${1:1} );"
+        },
+        "FTP_ASCII",
+        {
+            "trigger": "FTP_ASCII\tWP Define Constants",
+            "contents": "define( 'FTP_ASCII', ${1:0} );"
+        },
+        "FTP_FORCE",
+        {
+            "trigger": "FTP_FORCE\tWP Define Constants",
+            "contents": "define( 'FTP_FORCE', ${1:true} );"
+        },
+        "FTP_OS_Unix",
+        {
+            "trigger": "FTP_OS_Unix\tWP Define Constants",
+            "contents": "define( 'FTP_OS_Unix', ${1:'u'} );"
+        },
+        "FTP_OS_Windows",
+        {
+            "trigger": "FTP_OS_Windows\tWP Define Constants",
+            "contents": "define( 'FTP_OS_Windows', ${1:'w'} );"
+        },
+        "FTP_OS_Mac",
+        {
+            "trigger": "FTP_OS_Mac\tWP Define Constants",
+            "contents": "define( 'FTP_OS_Mac', ${1:'m'} );"
+        },
+        "PCLZIP_READ_BLOCK_SIZE",
+        {
+            "trigger": "PCLZIP_READ_BLOCK_SIZE\tWP Define Constants",
+            "contents": "define( 'PCLZIP_READ_BLOCK_SIZE', ${1:2048} );"
+        },
+        "PCLZIP_SEPARATOR",
+        {
+            "trigger": "PCLZIP_SEPARATOR\tWP Define Constants",
+            "contents": "define( 'PCLZIP_SEPARATOR', ${1:','} );"
+        },
+        "PCLZIP_ERROR_EXTERNAL",
+        {
+            "trigger": "PCLZIP_ERROR_EXTERNAL\tWP Define Constants",
+            "contents": "define( 'PCLZIP_ERROR_EXTERNAL', ${1:0} );"
+        },
+        "PCLZIP_TEMPORARY_DIR",
+        {
+            "trigger": "PCLZIP_TEMPORARY_DIR\tWP Define Constants",
+            "contents": "define( 'PCLZIP_TEMPORARY_DIR', ${1:''} );"
+        },
+        "PCLZIP_TEMPORARY_FILE_RATIO",
+        {
+            "trigger": "PCLZIP_TEMPORARY_FILE_RATIO\tWP Define Constants",
+            "contents": "define( 'PCLZIP_TEMPORARY_FILE_RATIO', ${1:0.47} );"
+        },
+        "PCLZIP_ERR_USER_ABORTED",
+        {
+            "trigger": "PCLZIP_ERR_USER_ABORTED\tWP Define Constants",
+            "contents": "define( 'PCLZIP_ERR_USER_ABORTED', ${1:2} );"
+        },
+        "PCLZIP_ERR_NO_ERROR",
+        {
+            "trigger": "PCLZIP_ERR_NO_ERROR\tWP Define Constants",
+            "contents": "define( 'PCLZIP_ERR_NO_ERROR', ${1:0} );"
+        },
+        "PCLZIP_ERR_WRITE_OPEN_FAIL",
+        {
+            "trigger": "PCLZIP_ERR_WRITE_OPEN_FAIL\tWP Define Constants",
+            "contents": "define( 'PCLZIP_ERR_WRITE_OPEN_FAIL', ${1:-1} );"
+        },
+        "PCLZIP_ERR_READ_OPEN_FAIL",
+        {
+            "trigger": "PCLZIP_ERR_READ_OPEN_FAIL\tWP Define Constants",
+            "contents": "define( 'PCLZIP_ERR_READ_OPEN_FAIL', ${1:-2} );"
+        },
+        "PCLZIP_ERR_INVALID_PARAMETER",
+        {
+            "trigger": "PCLZIP_ERR_INVALID_PARAMETER\tWP Define Constants",
+            "contents": "define( 'PCLZIP_ERR_INVALID_PARAMETER', ${1:-3} );"
+        },
+        "PCLZIP_ERR_MISSING_FILE",
+        {
+            "trigger": "PCLZIP_ERR_MISSING_FILE\tWP Define Constants",
+            "contents": "define( 'PCLZIP_ERR_MISSING_FILE', ${1:-4} );"
+        },
+        "PCLZIP_ERR_FILENAME_TOO_LONG",
+        {
+            "trigger": "PCLZIP_ERR_FILENAME_TOO_LONG\tWP Define Constants",
+            "contents": "define( 'PCLZIP_ERR_FILENAME_TOO_LONG', ${1:-5} );"
+        },
+        "PCLZIP_ERR_INVALID_ZIP",
+        {
+            "trigger": "PCLZIP_ERR_INVALID_ZIP\tWP Define Constants",
+            "contents": "define( 'PCLZIP_ERR_INVALID_ZIP', ${1:-6} );"
+        },
+        "PCLZIP_ERR_BAD_EXTRACTED_FILE",
+        {
+            "trigger": "PCLZIP_ERR_BAD_EXTRACTED_FILE\tWP Define Constants",
+            "contents": "define( 'PCLZIP_ERR_BAD_EXTRACTED_FILE', ${1:-7} );"
+        },
+        "PCLZIP_ERR_DIR_CREATE_FAIL",
+        {
+            "trigger": "PCLZIP_ERR_DIR_CREATE_FAIL\tWP Define Constants",
+            "contents": "define( 'PCLZIP_ERR_DIR_CREATE_FAIL', ${1:-8} );"
+        },
+        "PCLZIP_ERR_BAD_EXTENSION",
+        {
+            "trigger": "PCLZIP_ERR_BAD_EXTENSION\tWP Define Constants",
+            "contents": "define( 'PCLZIP_ERR_BAD_EXTENSION', ${1:-9} );"
+        },
+        "PCLZIP_ERR_BAD_FORMAT",
+        {
+            "trigger": "PCLZIP_ERR_BAD_FORMAT\tWP Define Constants",
+            "contents": "define( 'PCLZIP_ERR_BAD_FORMAT', ${1:-10} );"
+        },
+        "PCLZIP_ERR_DELETE_FILE_FAIL",
+        {
+            "trigger": "PCLZIP_ERR_DELETE_FILE_FAIL\tWP Define Constants",
+            "contents": "define( 'PCLZIP_ERR_DELETE_FILE_FAIL', ${1:-11} );"
+        },
+        "PCLZIP_ERR_RENAME_FILE_FAIL",
+        {
+            "trigger": "PCLZIP_ERR_RENAME_FILE_FAIL\tWP Define Constants",
+            "contents": "define( 'PCLZIP_ERR_RENAME_FILE_FAIL', ${1:-12} );"
+        },
+        "PCLZIP_ERR_BAD_CHECKSUM",
+        {
+            "trigger": "PCLZIP_ERR_BAD_CHECKSUM\tWP Define Constants",
+            "contents": "define( 'PCLZIP_ERR_BAD_CHECKSUM', ${1:-13} );"
+        },
+        "PCLZIP_ERR_INVALID_ARCHIVE_ZIP",
+        {
+            "trigger": "PCLZIP_ERR_INVALID_ARCHIVE_ZIP\tWP Define Constants",
+            "contents": "define( 'PCLZIP_ERR_INVALID_ARCHIVE_ZIP', ${1:-14} );"
+        },
+        "PCLZIP_ERR_MISSING_OPTION_VALUE",
+        {
+            "trigger": "PCLZIP_ERR_MISSING_OPTION_VALUE\tWP Define Constants",
+            "contents": "define( 'PCLZIP_ERR_MISSING_OPTION_VALUE', ${1:-15} );"
+        },
+        "PCLZIP_ERR_INVALID_OPTION_VALUE",
+        {
+            "trigger": "PCLZIP_ERR_INVALID_OPTION_VALUE\tWP Define Constants",
+            "contents": "define( 'PCLZIP_ERR_INVALID_OPTION_VALUE', ${1:-16} );"
+        },
+        "PCLZIP_ERR_ALREADY_A_DIRECTORY",
+        {
+            "trigger": "PCLZIP_ERR_ALREADY_A_DIRECTORY\tWP Define Constants",
+            "contents": "define( 'PCLZIP_ERR_ALREADY_A_DIRECTORY', ${1:-17} );"
+        },
+        "PCLZIP_ERR_UNSUPPORTED_COMPRESSION",
+        {
+            "trigger": "PCLZIP_ERR_UNSUPPORTED_COMPRESSION\tWP Define Constants",
+            "contents": "define( 'PCLZIP_ERR_UNSUPPORTED_COMPRESSION', ${1:-18} );"
+        },
+        "PCLZIP_ERR_UNSUPPORTED_ENCRYPTION",
+        {
+            "trigger": "PCLZIP_ERR_UNSUPPORTED_ENCRYPTION\tWP Define Constants",
+            "contents": "define( 'PCLZIP_ERR_UNSUPPORTED_ENCRYPTION', ${1:-19} );"
+        },
+        "PCLZIP_ERR_INVALID_ATTRIBUTE_VALUE",
+        {
+            "trigger": "PCLZIP_ERR_INVALID_ATTRIBUTE_VALUE\tWP Define Constants",
+            "contents": "define( 'PCLZIP_ERR_INVALID_ATTRIBUTE_VALUE', ${1:-20} );"
+        },
+        "PCLZIP_ERR_DIRECTORY_RESTRICTION",
+        {
+            "trigger": "PCLZIP_ERR_DIRECTORY_RESTRICTION\tWP Define Constants",
+            "contents": "define( 'PCLZIP_ERR_DIRECTORY_RESTRICTION', ${1:-21} );"
+        },
+        "PCLZIP_OPT_PATH",
+        {
+            "trigger": "PCLZIP_OPT_PATH\tWP Define Constants",
+            "contents": "define( 'PCLZIP_OPT_PATH', ${1:77001} );"
+        },
+        "PCLZIP_OPT_ADD_PATH",
+        {
+            "trigger": "PCLZIP_OPT_ADD_PATH\tWP Define Constants",
+            "contents": "define( 'PCLZIP_OPT_ADD_PATH', ${1:77002} );"
+        },
+        "PCLZIP_OPT_REMOVE_PATH",
+        {
+            "trigger": "PCLZIP_OPT_REMOVE_PATH\tWP Define Constants",
+            "contents": "define( 'PCLZIP_OPT_REMOVE_PATH', ${1:77003} );"
+        },
+        "PCLZIP_OPT_REMOVE_ALL_PATH",
+        {
+            "trigger": "PCLZIP_OPT_REMOVE_ALL_PATH\tWP Define Constants",
+            "contents": "define( 'PCLZIP_OPT_REMOVE_ALL_PATH', ${1:77004} );"
+        },
+        "PCLZIP_OPT_SET_CHMOD",
+        {
+            "trigger": "PCLZIP_OPT_SET_CHMOD\tWP Define Constants",
+            "contents": "define( 'PCLZIP_OPT_SET_CHMOD', ${1:77005} );"
+        },
+        "PCLZIP_OPT_EXTRACT_AS_STRING",
+        {
+            "trigger": "PCLZIP_OPT_EXTRACT_AS_STRING\tWP Define Constants",
+            "contents": "define( 'PCLZIP_OPT_EXTRACT_AS_STRING', ${1:77006} );"
+        },
+        "PCLZIP_OPT_NO_COMPRESSION",
+        {
+            "trigger": "PCLZIP_OPT_NO_COMPRESSION\tWP Define Constants",
+            "contents": "define( 'PCLZIP_OPT_NO_COMPRESSION', ${1:77007} );"
+        },
+        "PCLZIP_OPT_BY_NAME",
+        {
+            "trigger": "PCLZIP_OPT_BY_NAME\tWP Define Constants",
+            "contents": "define( 'PCLZIP_OPT_BY_NAME', ${1:77008} );"
+        },
+        "PCLZIP_OPT_BY_INDEX",
+        {
+            "trigger": "PCLZIP_OPT_BY_INDEX\tWP Define Constants",
+            "contents": "define( 'PCLZIP_OPT_BY_INDEX', ${1:77009} );"
+        },
+        "PCLZIP_OPT_BY_EREG",
+        {
+            "trigger": "PCLZIP_OPT_BY_EREG\tWP Define Constants",
+            "contents": "define( 'PCLZIP_OPT_BY_EREG', ${1:77010} );"
+        },
+        "PCLZIP_OPT_BY_PREG",
+        {
+            "trigger": "PCLZIP_OPT_BY_PREG\tWP Define Constants",
+            "contents": "define( 'PCLZIP_OPT_BY_PREG', ${1:77011} );"
+        },
+        "PCLZIP_OPT_COMMENT",
+        {
+            "trigger": "PCLZIP_OPT_COMMENT\tWP Define Constants",
+            "contents": "define( 'PCLZIP_OPT_COMMENT', ${1:77012} );"
+        },
+        "PCLZIP_OPT_ADD_COMMENT",
+        {
+            "trigger": "PCLZIP_OPT_ADD_COMMENT\tWP Define Constants",
+            "contents": "define( 'PCLZIP_OPT_ADD_COMMENT', ${1:77013} );"
+        },
+        "PCLZIP_OPT_PREPEND_COMMENT",
+        {
+            "trigger": "PCLZIP_OPT_PREPEND_COMMENT\tWP Define Constants",
+            "contents": "define( 'PCLZIP_OPT_PREPEND_COMMENT', ${1:77014} );"
+        },
+        "PCLZIP_OPT_EXTRACT_IN_OUTPUT",
+        {
+            "trigger": "PCLZIP_OPT_EXTRACT_IN_OUTPUT\tWP Define Constants",
+            "contents": "define( 'PCLZIP_OPT_EXTRACT_IN_OUTPUT', ${1:77015} );"
+        },
+        "PCLZIP_OPT_REPLACE_NEWER",
+        {
+            "trigger": "PCLZIP_OPT_REPLACE_NEWER\tWP Define Constants",
+            "contents": "define( 'PCLZIP_OPT_REPLACE_NEWER', ${1:77016} );"
+        },
+        "PCLZIP_OPT_STOP_ON_ERROR",
+        {
+            "trigger": "PCLZIP_OPT_STOP_ON_ERROR\tWP Define Constants",
+            "contents": "define( 'PCLZIP_OPT_STOP_ON_ERROR', ${1:77017} );"
+        },
+        "PCLZIP_OPT_EXTRACT_DIR_RESTRICTION",
+        {
+            "trigger": "PCLZIP_OPT_EXTRACT_DIR_RESTRICTION\tWP Define Constants",
+            "contents": "define( 'PCLZIP_OPT_EXTRACT_DIR_RESTRICTION', ${1:77019} );"
+        },
+        "PCLZIP_OPT_TEMP_FILE_THRESHOLD",
+        {
+            "trigger": "PCLZIP_OPT_TEMP_FILE_THRESHOLD\tWP Define Constants",
+            "contents": "define( 'PCLZIP_OPT_TEMP_FILE_THRESHOLD', ${1:77020} );"
+        },
+        "PCLZIP_OPT_ADD_TEMP_FILE_THRESHOLD",
+        {
+            "trigger": "PCLZIP_OPT_ADD_TEMP_FILE_THRESHOLD\tWP Define Constants",
+            "contents": "define( 'PCLZIP_OPT_ADD_TEMP_FILE_THRESHOLD', ${1:77020} );"
+        },
+        "PCLZIP_OPT_TEMP_FILE_ON",
+        {
+            "trigger": "PCLZIP_OPT_TEMP_FILE_ON\tWP Define Constants",
+            "contents": "define( 'PCLZIP_OPT_TEMP_FILE_ON', ${1:77021} );"
+        },
+        "PCLZIP_OPT_ADD_TEMP_FILE_ON",
+        {
+            "trigger": "PCLZIP_OPT_ADD_TEMP_FILE_ON\tWP Define Constants",
+            "contents": "define( 'PCLZIP_OPT_ADD_TEMP_FILE_ON', ${1:77021} );"
+        },
+        "PCLZIP_OPT_TEMP_FILE_OFF",
+        {
+            "trigger": "PCLZIP_OPT_TEMP_FILE_OFF\tWP Define Constants",
+            "contents": "define( 'PCLZIP_OPT_TEMP_FILE_OFF', ${1:77022} );"
+        },
+        "PCLZIP_OPT_ADD_TEMP_FILE_OFF",
+        {
+            "trigger": "PCLZIP_OPT_ADD_TEMP_FILE_OFF\tWP Define Constants",
+            "contents": "define( 'PCLZIP_OPT_ADD_TEMP_FILE_OFF', ${1:77022} );"
+        },
+        "PCLZIP_ATT_FILE_NAME",
+        {
+            "trigger": "PCLZIP_ATT_FILE_NAME\tWP Define Constants",
+            "contents": "define( 'PCLZIP_ATT_FILE_NAME', ${1:79001} );"
+        },
+        "PCLZIP_ATT_FILE_NEW_SHORT_NAME",
+        {
+            "trigger": "PCLZIP_ATT_FILE_NEW_SHORT_NAME\tWP Define Constants",
+            "contents": "define( 'PCLZIP_ATT_FILE_NEW_SHORT_NAME', ${1:79002} );"
+        },
+        "PCLZIP_ATT_FILE_NEW_FULL_NAME",
+        {
+            "trigger": "PCLZIP_ATT_FILE_NEW_FULL_NAME\tWP Define Constants",
+            "contents": "define( 'PCLZIP_ATT_FILE_NEW_FULL_NAME', ${1:79003} );"
+        },
+        "PCLZIP_ATT_FILE_MTIME",
+        {
+            "trigger": "PCLZIP_ATT_FILE_MTIME\tWP Define Constants",
+            "contents": "define( 'PCLZIP_ATT_FILE_MTIME', ${1:79004} );"
+        },
+        "PCLZIP_ATT_FILE_CONTENT",
+        {
+            "trigger": "PCLZIP_ATT_FILE_CONTENT\tWP Define Constants",
+            "contents": "define( 'PCLZIP_ATT_FILE_CONTENT', ${1:79005} );"
+        },
+        "PCLZIP_ATT_FILE_COMMENT",
+        {
+            "trigger": "PCLZIP_ATT_FILE_COMMENT\tWP Define Constants",
+            "contents": "define( 'PCLZIP_ATT_FILE_COMMENT', ${1:79006} );"
+        },
+        "PCLZIP_CB_PRE_EXTRACT",
+        {
+            "trigger": "PCLZIP_CB_PRE_EXTRACT\tWP Define Constants",
+            "contents": "define( 'PCLZIP_CB_PRE_EXTRACT', ${1:78001} );"
+        },
+        "PCLZIP_CB_POST_EXTRACT",
+        {
+            "trigger": "PCLZIP_CB_POST_EXTRACT\tWP Define Constants",
+            "contents": "define( 'PCLZIP_CB_POST_EXTRACT', ${1:78002} );"
+        },
+        "PCLZIP_CB_PRE_ADD",
+        {
+            "trigger": "PCLZIP_CB_PRE_ADD\tWP Define Constants",
+            "contents": "define( 'PCLZIP_CB_PRE_ADD', ${1:78003} );"
+        },
+        "PCLZIP_CB_POST_ADD",
+        {
+            "trigger": "PCLZIP_CB_POST_ADD\tWP Define Constants",
+            "contents": "define( 'PCLZIP_CB_POST_ADD', ${1:78004} );"
+        },
+        "FS_TIMEOUT",
+        {
+            "trigger": "FS_TIMEOUT\tWP Define Constants",
+            "contents": "define( 'FS_TIMEOUT', ${1:240} );"
+        },
+        "WXR_VERSION",
+        {
+            "trigger": "WXR_VERSION\tWP Define Constants",
+            "contents": "define( 'WXR_VERSION', ${1:'1.2'} );"
+        },
+        "FS_CONNECT_TIMEOUT",
+        {
+            "trigger": "FS_CONNECT_TIMEOUT\tWP Define Constants",
+            "contents": "define( 'FS_CONNECT_TIMEOUT', ${1:30} );"
+        },
+        "FS_CHMOD_DIR",
+        {
+            "trigger": "FS_CHMOD_DIR\tWP Define Constants",
+            "contents": "define( 'FS_CHMOD_DIR', ${1:fileperms(ABSPATH) & 511 | 493} );"
+        },
+        "FS_CHMOD_FILE",
+        {
+            "trigger": "FS_CHMOD_FILE\tWP Define Constants",
+            "contents": "define( 'FS_CHMOD_FILE', ${1:fileperms(ABSPATH . 'index.php') & 511 | 420} );"
+        },
+        "GETID3_TEMP_DIR",
+        {
+            "trigger": "GETID3_TEMP_DIR\tWP Define Constants",
+            "contents": "define( 'GETID3_TEMP_DIR', ${1:get_temp_dir()} );"
+        },
+        "WP_UNINSTALL_PLUGIN",
+        {
+            "trigger": "WP_UNINSTALL_PLUGIN\tWP Define Constants",
+            "contents": "define( 'WP_UNINSTALL_PLUGIN', ${1:$file} );"
+        },
+        "DOING_AUTOSAVE",
+        {
+            "trigger": "DOING_AUTOSAVE\tWP Define Constants",
+            "contents": "define( 'DOING_AUTOSAVE', ${1:true} );"
+        },
+        "WP_INSTALLING_NETWORK",
+        {
+            "trigger": "WP_INSTALLING_NETWORK\tWP Define Constants",
+            "contents": "define( 'WP_INSTALLING_NETWORK', ${1:true} );"
+        },
+        "ABSPATH",
+        {
+            "trigger": "ABSPATH\tWP Define Constants",
+            "contents": "define( 'ABSPATH', ${1:dirname(dirname(__FILE__)) . '\/'} );"
+        },
+        "WPINC",
+        {
+            "trigger": "WPINC\tWP Define Constants",
+            "contents": "define( 'WPINC', ${1:'wp-includes'} );"
+        },
+        "WP_REPAIRING",
+        {
+            "trigger": "WP_REPAIRING\tWP Define Constants",
+            "contents": "define( 'WP_REPAIRING', ${1:true} );"
+        },
+        "IS_PROFILE_PAGE",
+        {
+            "trigger": "IS_PROFILE_PAGE\tWP Define Constants",
+            "contents": "define( 'IS_PROFILE_PAGE', ${1:true} );"
+        },
+        "WP_SETUP_CONFIG",
+        {
+            "trigger": "WP_SETUP_CONFIG\tWP Define Constants",
+            "contents": "define( 'WP_SETUP_CONFIG', ${1:true} );"
+        },
+        "DB_NAME",
+        {
+            "trigger": "DB_NAME\tWP Define Constants",
+            "contents": "define( 'DB_NAME', ${1:$dbname} );"
+        },
+        "DB_USER",
+        {
+            "trigger": "DB_USER\tWP Define Constants",
+            "contents": "define( 'DB_USER', ${1:$uname} );"
+        },
+        "DB_PASSWORD",
+        {
+            "trigger": "DB_PASSWORD\tWP Define Constants",
+            "contents": "define( 'DB_PASSWORD', ${1:$pwd} );"
+        },
+        "DB_HOST",
+        {
+            "trigger": "DB_HOST\tWP Define Constants",
+            "contents": "define( 'DB_HOST', ${1:$dbhost} );"
+        },
+        "DB_CHARSET",
+        {
+            "trigger": "DB_CHARSET\tWP Define Constants",
+            "contents": "define( 'DB_CHARSET', ${1:'utf8'} );"
+        },
+        "DB_COLLATE",
+        {
+            "trigger": "DB_COLLATE\tWP Define Constants",
+            "contents": "define( 'DB_COLLATE', ${1:''} );"
+        },
+        "AUTH_KEY",
+        {
+            "trigger": "AUTH_KEY\tWP Define Constants",
+            "contents": "define( 'AUTH_KEY', ${1:'put your unique phrase here'} );"
+        },
+        "SECURE_AUTH_KEY",
+        {
+            "trigger": "SECURE_AUTH_KEY\tWP Define Constants",
+            "contents": "define( 'SECURE_AUTH_KEY', ${1:'put your unique phrase here'} );"
+        },
+        "LOGGED_IN_KEY",
+        {
+            "trigger": "LOGGED_IN_KEY\tWP Define Constants",
+            "contents": "define( 'LOGGED_IN_KEY', ${1:'put your unique phrase here'} );"
+        },
+        "NONCE_KEY",
+        {
+            "trigger": "NONCE_KEY\tWP Define Constants",
+            "contents": "define( 'NONCE_KEY', ${1:'put your unique phrase here'} );"
+        },
+        "AUTH_SALT",
+        {
+            "trigger": "AUTH_SALT\tWP Define Constants",
+            "contents": "define( 'AUTH_SALT', ${1:'put your unique phrase here'} );"
+        },
+        "SECURE_AUTH_SALT",
+        {
+            "trigger": "SECURE_AUTH_SALT\tWP Define Constants",
+            "contents": "define( 'SECURE_AUTH_SALT', ${1:'put your unique phrase here'} );"
+        },
+        "LOGGED_IN_SALT",
+        {
+            "trigger": "LOGGED_IN_SALT\tWP Define Constants",
+            "contents": "define( 'LOGGED_IN_SALT', ${1:'put your unique phrase here'} );"
+        },
+        "NONCE_SALT",
+        {
+            "trigger": "NONCE_SALT\tWP Define Constants",
+            "contents": "define( 'NONCE_SALT', ${1:'put your unique phrase here'} );"
+        },
+        "WP_DEBUG",
+        {
+            "trigger": "WP_DEBUG\tWP Define Constants",
+            "contents": "define( 'WP_DEBUG', ${1:false} );"
+        },
+        "WPORGPATH",
+        {
+            "trigger": "WPORGPATH\tWP Define Constants",
+            "contents": "define( 'WPORGPATH', ${1:__DIR__ . '\/wp-content\/themes\/'} );"
+        },
+        "DOING_CRON",
+        {
+            "trigger": "DOING_CRON\tWP Define Constants",
+            "contents": "define( 'DOING_CRON', ${1:true} );"
+        },
+        "SERVICES_JSON_SLICE",
+        {
+            "trigger": "SERVICES_JSON_SLICE\tWP Define Constants",
+            "contents": "define( 'SERVICES_JSON_SLICE', ${1:1} );"
+        },
+        "SERVICES_JSON_IN_STR",
+        {
+            "trigger": "SERVICES_JSON_IN_STR\tWP Define Constants",
+            "contents": "define( 'SERVICES_JSON_IN_STR', ${1:2} );"
+        },
+        "SERVICES_JSON_IN_ARR",
+        {
+            "trigger": "SERVICES_JSON_IN_ARR\tWP Define Constants",
+            "contents": "define( 'SERVICES_JSON_IN_ARR', ${1:3} );"
+        },
+        "SERVICES_JSON_IN_OBJ",
+        {
+            "trigger": "SERVICES_JSON_IN_OBJ\tWP Define Constants",
+            "contents": "define( 'SERVICES_JSON_IN_OBJ', ${1:4} );"
+        },
+        "SERVICES_JSON_IN_CMT",
+        {
+            "trigger": "SERVICES_JSON_IN_CMT\tWP Define Constants",
+            "contents": "define( 'SERVICES_JSON_IN_CMT', ${1:5} );"
+        },
+        "SERVICES_JSON_LOOSE_TYPE",
+        {
+            "trigger": "SERVICES_JSON_LOOSE_TYPE\tWP Define Constants",
+            "contents": "define( 'SERVICES_JSON_LOOSE_TYPE', ${1:16} );"
+        },
+        "SERVICES_JSON_SUPPRESS_ERRORS",
+        {
+            "trigger": "SERVICES_JSON_SUPPRESS_ERRORS\tWP Define Constants",
+            "contents": "define( 'SERVICES_JSON_SUPPRESS_ERRORS', ${1:32} );"
+        },
+        "SERVICES_JSON_USE_TO_JSON",
+        {
+            "trigger": "SERVICES_JSON_USE_TO_JSON\tWP Define Constants",
+            "contents": "define( 'SERVICES_JSON_USE_TO_JSON', ${1:64} );"
+        },
+        "SIMPLEPIE_NAME",
+        {
+            "trigger": "SIMPLEPIE_NAME\tWP Define Constants",
+            "contents": "define( 'SIMPLEPIE_NAME', ${1:'SimplePie'} );"
+        },
+        "SIMPLEPIE_VERSION",
+        {
+            "trigger": "SIMPLEPIE_VERSION\tWP Define Constants",
+            "contents": "define( 'SIMPLEPIE_VERSION', ${1:'1.3.1'} );"
+        },
+        "SIMPLEPIE_BUILD",
+        {
+            "trigger": "SIMPLEPIE_BUILD\tWP Define Constants",
+            "contents": "define( 'SIMPLEPIE_BUILD', ${1:gmdate('YmdHis', \\SimplePie_Misc::get_build())} );"
+        },
+        "SIMPLEPIE_URL",
+        {
+            "trigger": "SIMPLEPIE_URL\tWP Define Constants",
+            "contents": "define( 'SIMPLEPIE_URL', ${1:'http:\/\/simplepie.org'} );"
+        },
+        "SIMPLEPIE_USERAGENT",
+        {
+            "trigger": "SIMPLEPIE_USERAGENT\tWP Define Constants",
+            "contents": "define( 'SIMPLEPIE_USERAGENT', ${1:SIMPLEPIE_NAME . '\/' . SIMPLEPIE_VERSION . ' (Feed Parser; ' . SIMPLEPIE_URL . '; Allow like Gecko) Build\/' . SIMPLEPIE_BUILD} );"
+        },
+        "SIMPLEPIE_LINKBACK",
+        {
+            "trigger": "SIMPLEPIE_LINKBACK\tWP Define Constants",
+            "contents": "define( 'SIMPLEPIE_LINKBACK', ${1:'<a href=\"' . SIMPLEPIE_URL . '\" title=\"' . SIMPLEPIE_NAME . ' ' . SIMPLEPIE_VERSION . '\">' . SIMPLEPIE_NAME . '<\/a>'} );"
+        },
+        "SIMPLEPIE_LOCATOR_NONE",
+        {
+            "trigger": "SIMPLEPIE_LOCATOR_NONE\tWP Define Constants",
+            "contents": "define( 'SIMPLEPIE_LOCATOR_NONE', ${1:0} );"
+        },
+        "SIMPLEPIE_LOCATOR_AUTODISCOVERY",
+        {
+            "trigger": "SIMPLEPIE_LOCATOR_AUTODISCOVERY\tWP Define Constants",
+            "contents": "define( 'SIMPLEPIE_LOCATOR_AUTODISCOVERY', ${1:1} );"
+        },
+        "SIMPLEPIE_LOCATOR_LOCAL_EXTENSION",
+        {
+            "trigger": "SIMPLEPIE_LOCATOR_LOCAL_EXTENSION\tWP Define Constants",
+            "contents": "define( 'SIMPLEPIE_LOCATOR_LOCAL_EXTENSION', ${1:2} );"
+        },
+        "SIMPLEPIE_LOCATOR_LOCAL_BODY",
+        {
+            "trigger": "SIMPLEPIE_LOCATOR_LOCAL_BODY\tWP Define Constants",
+            "contents": "define( 'SIMPLEPIE_LOCATOR_LOCAL_BODY', ${1:4} );"
+        },
+        "SIMPLEPIE_LOCATOR_REMOTE_EXTENSION",
+        {
+            "trigger": "SIMPLEPIE_LOCATOR_REMOTE_EXTENSION\tWP Define Constants",
+            "contents": "define( 'SIMPLEPIE_LOCATOR_REMOTE_EXTENSION', ${1:8} );"
+        },
+        "SIMPLEPIE_LOCATOR_REMOTE_BODY",
+        {
+            "trigger": "SIMPLEPIE_LOCATOR_REMOTE_BODY\tWP Define Constants",
+            "contents": "define( 'SIMPLEPIE_LOCATOR_REMOTE_BODY', ${1:16} );"
+        },
+        "SIMPLEPIE_LOCATOR_ALL",
+        {
+            "trigger": "SIMPLEPIE_LOCATOR_ALL\tWP Define Constants",
+            "contents": "define( 'SIMPLEPIE_LOCATOR_ALL', ${1:31} );"
+        },
+        "SIMPLEPIE_TYPE_NONE",
+        {
+            "trigger": "SIMPLEPIE_TYPE_NONE\tWP Define Constants",
+            "contents": "define( 'SIMPLEPIE_TYPE_NONE', ${1:0} );"
+        },
+        "SIMPLEPIE_TYPE_RSS_090",
+        {
+            "trigger": "SIMPLEPIE_TYPE_RSS_090\tWP Define Constants",
+            "contents": "define( 'SIMPLEPIE_TYPE_RSS_090', ${1:1} );"
+        },
+        "SIMPLEPIE_TYPE_RSS_091_NETSCAPE",
+        {
+            "trigger": "SIMPLEPIE_TYPE_RSS_091_NETSCAPE\tWP Define Constants",
+            "contents": "define( 'SIMPLEPIE_TYPE_RSS_091_NETSCAPE', ${1:2} );"
+        },
+        "SIMPLEPIE_TYPE_RSS_091_USERLAND",
+        {
+            "trigger": "SIMPLEPIE_TYPE_RSS_091_USERLAND\tWP Define Constants",
+            "contents": "define( 'SIMPLEPIE_TYPE_RSS_091_USERLAND', ${1:4} );"
+        },
+        "SIMPLEPIE_TYPE_RSS_091",
+        {
+            "trigger": "SIMPLEPIE_TYPE_RSS_091\tWP Define Constants",
+            "contents": "define( 'SIMPLEPIE_TYPE_RSS_091', ${1:6} );"
+        },
+        "SIMPLEPIE_TYPE_RSS_092",
+        {
+            "trigger": "SIMPLEPIE_TYPE_RSS_092\tWP Define Constants",
+            "contents": "define( 'SIMPLEPIE_TYPE_RSS_092', ${1:8} );"
+        },
+        "SIMPLEPIE_TYPE_RSS_093",
+        {
+            "trigger": "SIMPLEPIE_TYPE_RSS_093\tWP Define Constants",
+            "contents": "define( 'SIMPLEPIE_TYPE_RSS_093', ${1:16} );"
+        },
+        "SIMPLEPIE_TYPE_RSS_094",
+        {
+            "trigger": "SIMPLEPIE_TYPE_RSS_094\tWP Define Constants",
+            "contents": "define( 'SIMPLEPIE_TYPE_RSS_094', ${1:32} );"
+        },
+        "SIMPLEPIE_TYPE_RSS_10",
+        {
+            "trigger": "SIMPLEPIE_TYPE_RSS_10\tWP Define Constants",
+            "contents": "define( 'SIMPLEPIE_TYPE_RSS_10', ${1:64} );"
+        },
+        "SIMPLEPIE_TYPE_RSS_20",
+        {
+            "trigger": "SIMPLEPIE_TYPE_RSS_20\tWP Define Constants",
+            "contents": "define( 'SIMPLEPIE_TYPE_RSS_20', ${1:128} );"
+        },
+        "SIMPLEPIE_TYPE_RSS_RDF",
+        {
+            "trigger": "SIMPLEPIE_TYPE_RSS_RDF\tWP Define Constants",
+            "contents": "define( 'SIMPLEPIE_TYPE_RSS_RDF', ${1:65} );"
+        },
+        "SIMPLEPIE_TYPE_RSS_SYNDICATION",
+        {
+            "trigger": "SIMPLEPIE_TYPE_RSS_SYNDICATION\tWP Define Constants",
+            "contents": "define( 'SIMPLEPIE_TYPE_RSS_SYNDICATION', ${1:190} );"
+        },
+        "SIMPLEPIE_TYPE_RSS_ALL",
+        {
+            "trigger": "SIMPLEPIE_TYPE_RSS_ALL\tWP Define Constants",
+            "contents": "define( 'SIMPLEPIE_TYPE_RSS_ALL', ${1:255} );"
+        },
+        "SIMPLEPIE_TYPE_ATOM_03",
+        {
+            "trigger": "SIMPLEPIE_TYPE_ATOM_03\tWP Define Constants",
+            "contents": "define( 'SIMPLEPIE_TYPE_ATOM_03', ${1:256} );"
+        },
+        "SIMPLEPIE_TYPE_ATOM_10",
+        {
+            "trigger": "SIMPLEPIE_TYPE_ATOM_10\tWP Define Constants",
+            "contents": "define( 'SIMPLEPIE_TYPE_ATOM_10', ${1:512} );"
+        },
+        "SIMPLEPIE_TYPE_ATOM_ALL",
+        {
+            "trigger": "SIMPLEPIE_TYPE_ATOM_ALL\tWP Define Constants",
+            "contents": "define( 'SIMPLEPIE_TYPE_ATOM_ALL', ${1:768} );"
+        },
+        "SIMPLEPIE_TYPE_ALL",
+        {
+            "trigger": "SIMPLEPIE_TYPE_ALL\tWP Define Constants",
+            "contents": "define( 'SIMPLEPIE_TYPE_ALL', ${1:1023} );"
+        },
+        "SIMPLEPIE_CONSTRUCT_NONE",
+        {
+            "trigger": "SIMPLEPIE_CONSTRUCT_NONE\tWP Define Constants",
+            "contents": "define( 'SIMPLEPIE_CONSTRUCT_NONE', ${1:0} );"
+        },
+        "SIMPLEPIE_CONSTRUCT_TEXT",
+        {
+            "trigger": "SIMPLEPIE_CONSTRUCT_TEXT\tWP Define Constants",
+            "contents": "define( 'SIMPLEPIE_CONSTRUCT_TEXT', ${1:1} );"
+        },
+        "SIMPLEPIE_CONSTRUCT_HTML",
+        {
+            "trigger": "SIMPLEPIE_CONSTRUCT_HTML\tWP Define Constants",
+            "contents": "define( 'SIMPLEPIE_CONSTRUCT_HTML', ${1:2} );"
+        },
+        "SIMPLEPIE_CONSTRUCT_XHTML",
+        {
+            "trigger": "SIMPLEPIE_CONSTRUCT_XHTML\tWP Define Constants",
+            "contents": "define( 'SIMPLEPIE_CONSTRUCT_XHTML', ${1:4} );"
+        },
+        "SIMPLEPIE_CONSTRUCT_BASE64",
+        {
+            "trigger": "SIMPLEPIE_CONSTRUCT_BASE64\tWP Define Constants",
+            "contents": "define( 'SIMPLEPIE_CONSTRUCT_BASE64', ${1:8} );"
+        },
+        "SIMPLEPIE_CONSTRUCT_IRI",
+        {
+            "trigger": "SIMPLEPIE_CONSTRUCT_IRI\tWP Define Constants",
+            "contents": "define( 'SIMPLEPIE_CONSTRUCT_IRI', ${1:16} );"
+        },
+        "SIMPLEPIE_CONSTRUCT_MAYBE_HTML",
+        {
+            "trigger": "SIMPLEPIE_CONSTRUCT_MAYBE_HTML\tWP Define Constants",
+            "contents": "define( 'SIMPLEPIE_CONSTRUCT_MAYBE_HTML', ${1:32} );"
+        },
+        "SIMPLEPIE_CONSTRUCT_ALL",
+        {
+            "trigger": "SIMPLEPIE_CONSTRUCT_ALL\tWP Define Constants",
+            "contents": "define( 'SIMPLEPIE_CONSTRUCT_ALL', ${1:63} );"
+        },
+        "SIMPLEPIE_SAME_CASE",
+        {
+            "trigger": "SIMPLEPIE_SAME_CASE\tWP Define Constants",
+            "contents": "define( 'SIMPLEPIE_SAME_CASE', ${1:1} );"
+        },
+        "SIMPLEPIE_LOWERCASE",
+        {
+            "trigger": "SIMPLEPIE_LOWERCASE\tWP Define Constants",
+            "contents": "define( 'SIMPLEPIE_LOWERCASE', ${1:2} );"
+        },
+        "SIMPLEPIE_UPPERCASE",
+        {
+            "trigger": "SIMPLEPIE_UPPERCASE\tWP Define Constants",
+            "contents": "define( 'SIMPLEPIE_UPPERCASE', ${1:4} );"
+        },
+        "SIMPLEPIE_PCRE_HTML_ATTRIBUTE",
+        {
+            "trigger": "SIMPLEPIE_PCRE_HTML_ATTRIBUTE\tWP Define Constants",
+            "contents": "define( 'SIMPLEPIE_PCRE_HTML_ATTRIBUTE', ${1:'((?:[\\x09\\x0A\\x0B\\x0C\\x0D\\x20]+[^\\x09\\x0A\\x0B\\x0C\\x0D\\x20\\x2F\\x3E][^\\x09\\x0A\\x0B\\x0C\\x0D\\x20\\x2F\\x3D\\x3E]*(?:[\\x09\\x0A\\x0B\\x0C\\x0D\\x20]*=[\\x09\\x0A\\x0B\\x0C\\x0D\\x20]*(?:\"(?:[^\"]*)\"|\\'(?:[^\\']*)\\'|(?:[^\\x09\\x0A\\x0B\\x0C\\x0D\\x20\\x22\\x27\\x3E][^\\x09\\x0A\\x0B\\x0C\\x0D\\x20\\x3E]*)?))?)*)[\\x09\\x0A\\x0B\\x0C\\x0D\\x20]*'} );"
+        },
+        "SIMPLEPIE_PCRE_XML_ATTRIBUTE",
+        {
+            "trigger": "SIMPLEPIE_PCRE_XML_ATTRIBUTE\tWP Define Constants",
+            "contents": "define( 'SIMPLEPIE_PCRE_XML_ATTRIBUTE', ${1:'((?:\\s+(?:(?:[^\\s:]+:)?[^\\s:]+)\\s*=\\s*(?:\"(?:[^\"]*)\"|\\'(?:[^\\']*)\\'))*)\\s*'} );"
+        },
+        "SIMPLEPIE_NAMESPACE_XML",
+        {
+            "trigger": "SIMPLEPIE_NAMESPACE_XML\tWP Define Constants",
+            "contents": "define( 'SIMPLEPIE_NAMESPACE_XML', ${1:'http:\/\/www.w3.org\/XML\/1998\/namespace'} );"
+        },
+        "SIMPLEPIE_NAMESPACE_ATOM_10",
+        {
+            "trigger": "SIMPLEPIE_NAMESPACE_ATOM_10\tWP Define Constants",
+            "contents": "define( 'SIMPLEPIE_NAMESPACE_ATOM_10', ${1:'http:\/\/www.w3.org\/2005\/Atom'} );"
+        },
+        "SIMPLEPIE_NAMESPACE_ATOM_03",
+        {
+            "trigger": "SIMPLEPIE_NAMESPACE_ATOM_03\tWP Define Constants",
+            "contents": "define( 'SIMPLEPIE_NAMESPACE_ATOM_03', ${1:'http:\/\/purl.org\/atom\/ns#'} );"
+        },
+        "SIMPLEPIE_NAMESPACE_RDF",
+        {
+            "trigger": "SIMPLEPIE_NAMESPACE_RDF\tWP Define Constants",
+            "contents": "define( 'SIMPLEPIE_NAMESPACE_RDF', ${1:'http:\/\/www.w3.org\/1999\/02\/22-rdf-syntax-ns#'} );"
+        },
+        "SIMPLEPIE_NAMESPACE_RSS_090",
+        {
+            "trigger": "SIMPLEPIE_NAMESPACE_RSS_090\tWP Define Constants",
+            "contents": "define( 'SIMPLEPIE_NAMESPACE_RSS_090', ${1:'http:\/\/my.netscape.com\/rdf\/simple\/0.9\/'} );"
+        },
+        "SIMPLEPIE_NAMESPACE_RSS_10",
+        {
+            "trigger": "SIMPLEPIE_NAMESPACE_RSS_10\tWP Define Constants",
+            "contents": "define( 'SIMPLEPIE_NAMESPACE_RSS_10', ${1:'http:\/\/purl.org\/rss\/1.0\/'} );"
+        },
+        "SIMPLEPIE_NAMESPACE_RSS_10_MODULES_CONTENT",
+        {
+            "trigger": "SIMPLEPIE_NAMESPACE_RSS_10_MODULES_CONTENT\tWP Define Constants",
+            "contents": "define( 'SIMPLEPIE_NAMESPACE_RSS_10_MODULES_CONTENT', ${1:'http:\/\/purl.org\/rss\/1.0\/modules\/content\/'} );"
+        },
+        "SIMPLEPIE_NAMESPACE_RSS_20",
+        {
+            "trigger": "SIMPLEPIE_NAMESPACE_RSS_20\tWP Define Constants",
+            "contents": "define( 'SIMPLEPIE_NAMESPACE_RSS_20', ${1:''} );"
+        },
+        "SIMPLEPIE_NAMESPACE_DC_10",
+        {
+            "trigger": "SIMPLEPIE_NAMESPACE_DC_10\tWP Define Constants",
+            "contents": "define( 'SIMPLEPIE_NAMESPACE_DC_10', ${1:'http:\/\/purl.org\/dc\/elements\/1.0\/'} );"
+        },
+        "SIMPLEPIE_NAMESPACE_DC_11",
+        {
+            "trigger": "SIMPLEPIE_NAMESPACE_DC_11\tWP Define Constants",
+            "contents": "define( 'SIMPLEPIE_NAMESPACE_DC_11', ${1:'http:\/\/purl.org\/dc\/elements\/1.1\/'} );"
+        },
+        "SIMPLEPIE_NAMESPACE_W3C_BASIC_GEO",
+        {
+            "trigger": "SIMPLEPIE_NAMESPACE_W3C_BASIC_GEO\tWP Define Constants",
+            "contents": "define( 'SIMPLEPIE_NAMESPACE_W3C_BASIC_GEO', ${1:'http:\/\/www.w3.org\/2003\/01\/geo\/wgs84_pos#'} );"
+        },
+        "SIMPLEPIE_NAMESPACE_GEORSS",
+        {
+            "trigger": "SIMPLEPIE_NAMESPACE_GEORSS\tWP Define Constants",
+            "contents": "define( 'SIMPLEPIE_NAMESPACE_GEORSS', ${1:'http:\/\/www.georss.org\/georss'} );"
+        },
+        "SIMPLEPIE_NAMESPACE_MEDIARSS",
+        {
+            "trigger": "SIMPLEPIE_NAMESPACE_MEDIARSS\tWP Define Constants",
+            "contents": "define( 'SIMPLEPIE_NAMESPACE_MEDIARSS', ${1:'http:\/\/search.yahoo.com\/mrss\/'} );"
+        },
+        "SIMPLEPIE_NAMESPACE_MEDIARSS_WRONG",
+        {
+            "trigger": "SIMPLEPIE_NAMESPACE_MEDIARSS_WRONG\tWP Define Constants",
+            "contents": "define( 'SIMPLEPIE_NAMESPACE_MEDIARSS_WRONG', ${1:'http:\/\/search.yahoo.com\/mrss'} );"
+        },
+        "SIMPLEPIE_NAMESPACE_MEDIARSS_WRONG2",
+        {
+            "trigger": "SIMPLEPIE_NAMESPACE_MEDIARSS_WRONG2\tWP Define Constants",
+            "contents": "define( 'SIMPLEPIE_NAMESPACE_MEDIARSS_WRONG2', ${1:'http:\/\/video.search.yahoo.com\/mrss'} );"
+        },
+        "SIMPLEPIE_NAMESPACE_MEDIARSS_WRONG3",
+        {
+            "trigger": "SIMPLEPIE_NAMESPACE_MEDIARSS_WRONG3\tWP Define Constants",
+            "contents": "define( 'SIMPLEPIE_NAMESPACE_MEDIARSS_WRONG3', ${1:'http:\/\/video.search.yahoo.com\/mrss\/'} );"
+        },
+        "SIMPLEPIE_NAMESPACE_MEDIARSS_WRONG4",
+        {
+            "trigger": "SIMPLEPIE_NAMESPACE_MEDIARSS_WRONG4\tWP Define Constants",
+            "contents": "define( 'SIMPLEPIE_NAMESPACE_MEDIARSS_WRONG4', ${1:'http:\/\/www.rssboard.org\/media-rss'} );"
+        },
+        "SIMPLEPIE_NAMESPACE_MEDIARSS_WRONG5",
+        {
+            "trigger": "SIMPLEPIE_NAMESPACE_MEDIARSS_WRONG5\tWP Define Constants",
+            "contents": "define( 'SIMPLEPIE_NAMESPACE_MEDIARSS_WRONG5', ${1:'http:\/\/www.rssboard.org\/media-rss\/'} );"
+        },
+        "SIMPLEPIE_NAMESPACE_ITUNES",
+        {
+            "trigger": "SIMPLEPIE_NAMESPACE_ITUNES\tWP Define Constants",
+            "contents": "define( 'SIMPLEPIE_NAMESPACE_ITUNES', ${1:'http:\/\/www.itunes.com\/dtds\/podcast-1.0.dtd'} );"
+        },
+        "SIMPLEPIE_NAMESPACE_XHTML",
+        {
+            "trigger": "SIMPLEPIE_NAMESPACE_XHTML\tWP Define Constants",
+            "contents": "define( 'SIMPLEPIE_NAMESPACE_XHTML', ${1:'http:\/\/www.w3.org\/1999\/xhtml'} );"
+        },
+        "SIMPLEPIE_IANA_LINK_RELATIONS_REGISTRY",
+        {
+            "trigger": "SIMPLEPIE_IANA_LINK_RELATIONS_REGISTRY\tWP Define Constants",
+            "contents": "define( 'SIMPLEPIE_IANA_LINK_RELATIONS_REGISTRY', ${1:'http:\/\/www.iana.org\/assignments\/relation\/'} );"
+        },
+        "SIMPLEPIE_FILE_SOURCE_NONE",
+        {
+            "trigger": "SIMPLEPIE_FILE_SOURCE_NONE\tWP Define Constants",
+            "contents": "define( 'SIMPLEPIE_FILE_SOURCE_NONE', ${1:0} );"
+        },
+        "SIMPLEPIE_FILE_SOURCE_REMOTE",
+        {
+            "trigger": "SIMPLEPIE_FILE_SOURCE_REMOTE\tWP Define Constants",
+            "contents": "define( 'SIMPLEPIE_FILE_SOURCE_REMOTE', ${1:1} );"
+        },
+        "SIMPLEPIE_FILE_SOURCE_LOCAL",
+        {
+            "trigger": "SIMPLEPIE_FILE_SOURCE_LOCAL\tWP Define Constants",
+            "contents": "define( 'SIMPLEPIE_FILE_SOURCE_LOCAL', ${1:2} );"
+        },
+        "SIMPLEPIE_FILE_SOURCE_FSOCKOPEN",
+        {
+            "trigger": "SIMPLEPIE_FILE_SOURCE_FSOCKOPEN\tWP Define Constants",
+            "contents": "define( 'SIMPLEPIE_FILE_SOURCE_FSOCKOPEN', ${1:4} );"
+        },
+        "SIMPLEPIE_FILE_SOURCE_CURL",
+        {
+            "trigger": "SIMPLEPIE_FILE_SOURCE_CURL\tWP Define Constants",
+            "contents": "define( 'SIMPLEPIE_FILE_SOURCE_CURL', ${1:8} );"
+        },
+        "SIMPLEPIE_FILE_SOURCE_FILE_GET_CONTENTS",
+        {
+            "trigger": "SIMPLEPIE_FILE_SOURCE_FILE_GET_CONTENTS\tWP Define Constants",
+            "contents": "define( 'SIMPLEPIE_FILE_SOURCE_FILE_GET_CONTENTS', ${1:16} );"
+        },
+        "COMMENTS_TEMPLATE",
+        {
+            "trigger": "COMMENTS_TEMPLATE\tWP Define Constants",
+            "contents": "define( 'COMMENTS_TEMPLATE', ${1:true} );"
+        },
+        "JSON_PRETTY_PRINT",
+        {
+            "trigger": "JSON_PRETTY_PRINT\tWP Define Constants",
+            "contents": "define( 'JSON_PRETTY_PRINT', ${1:128} );"
+        },
+        "WP_JSON_SERIALIZE_COMPATIBLE",
+        {
+            "trigger": "WP_JSON_SERIALIZE_COMPATIBLE\tWP Define Constants",
+            "contents": "define( 'WP_JSON_SERIALIZE_COMPATIBLE', ${1:true} );"
+        },
+        "KB_IN_BYTES",
+        {
+            "trigger": "KB_IN_BYTES\tWP Define Constants",
+            "contents": "define( 'KB_IN_BYTES', ${1:1024} );"
+        },
+        "MB_IN_BYTES",
+        {
+            "trigger": "MB_IN_BYTES\tWP Define Constants",
+            "contents": "define( 'MB_IN_BYTES', ${1:1024 * KB_IN_BYTES} );"
+        },
+        "GB_IN_BYTES",
+        {
+            "trigger": "GB_IN_BYTES\tWP Define Constants",
+            "contents": "define( 'GB_IN_BYTES', ${1:1024 * MB_IN_BYTES} );"
+        },
+        "TB_IN_BYTES",
+        {
+            "trigger": "TB_IN_BYTES\tWP Define Constants",
+            "contents": "define( 'TB_IN_BYTES', ${1:1024 * GB_IN_BYTES} );"
+        },
+        "WP_MEMORY_LIMIT",
+        {
+            "trigger": "WP_MEMORY_LIMIT\tWP Define Constants",
+            "contents": "define( 'WP_MEMORY_LIMIT', ${1:$current_limit} );"
+        },
+        "WP_MAX_MEMORY_LIMIT",
+        {
+            "trigger": "WP_MAX_MEMORY_LIMIT\tWP Define Constants",
+            "contents": "define( 'WP_MAX_MEMORY_LIMIT', ${1:$current_limit} );"
+        },
+        "WP_CONTENT_DIR",
+        {
+            "trigger": "WP_CONTENT_DIR\tWP Define Constants",
+            "contents": "define( 'WP_CONTENT_DIR', ${1:ABSPATH . 'wp-content'} );"
+        },
+        "WP_DEBUG_DISPLAY",
+        {
+            "trigger": "WP_DEBUG_DISPLAY\tWP Define Constants",
+            "contents": "define( 'WP_DEBUG_DISPLAY', ${1:true} );"
+        },
+        "WP_DEBUG_LOG",
+        {
+            "trigger": "WP_DEBUG_LOG\tWP Define Constants",
+            "contents": "define( 'WP_DEBUG_LOG', ${1:false} );"
+        },
+        "WP_CACHE",
+        {
+            "trigger": "WP_CACHE\tWP Define Constants",
+            "contents": "define( 'WP_CACHE', ${1:false} );"
+        },
+        "SCRIPT_DEBUG",
+        {
+            "trigger": "SCRIPT_DEBUG\tWP Define Constants",
+            "contents": "define( 'SCRIPT_DEBUG', ${1:$develop_src} );"
+        },
+        "MEDIA_TRASH",
+        {
+            "trigger": "MEDIA_TRASH\tWP Define Constants",
+            "contents": "define( 'MEDIA_TRASH', ${1:false} );"
+        },
+        "SHORTINIT",
+        {
+            "trigger": "SHORTINIT\tWP Define Constants",
+            "contents": "define( 'SHORTINIT', ${1:false} );"
+        },
+        "WP_FEATURE_BETTER_PASSWORDS",
+        {
+            "trigger": "WP_FEATURE_BETTER_PASSWORDS\tWP Define Constants",
+            "contents": "define( 'WP_FEATURE_BETTER_PASSWORDS', ${1:true} );"
+        },
+        "MINUTE_IN_SECONDS",
+        {
+            "trigger": "MINUTE_IN_SECONDS\tWP Define Constants",
+            "contents": "define( 'MINUTE_IN_SECONDS', ${1:60} );"
+        },
+        "HOUR_IN_SECONDS",
+        {
+            "trigger": "HOUR_IN_SECONDS\tWP Define Constants",
+            "contents": "define( 'HOUR_IN_SECONDS', ${1:60 * MINUTE_IN_SECONDS} );"
+        },
+        "DAY_IN_SECONDS",
+        {
+            "trigger": "DAY_IN_SECONDS\tWP Define Constants",
+            "contents": "define( 'DAY_IN_SECONDS', ${1:24 * HOUR_IN_SECONDS} );"
+        },
+        "WEEK_IN_SECONDS",
+        {
+            "trigger": "WEEK_IN_SECONDS\tWP Define Constants",
+            "contents": "define( 'WEEK_IN_SECONDS', ${1:7 * DAY_IN_SECONDS} );"
+        },
+        "MONTH_IN_SECONDS",
+        {
+            "trigger": "MONTH_IN_SECONDS\tWP Define Constants",
+            "contents": "define( 'MONTH_IN_SECONDS', ${1:30 * DAY_IN_SECONDS} );"
+        },
+        "YEAR_IN_SECONDS",
+        {
+            "trigger": "YEAR_IN_SECONDS\tWP Define Constants",
+            "contents": "define( 'YEAR_IN_SECONDS', ${1:365 * DAY_IN_SECONDS} );"
+        },
+        "WP_CONTENT_URL",
+        {
+            "trigger": "WP_CONTENT_URL\tWP Define Constants",
+            "contents": "define( 'WP_CONTENT_URL', ${1:get_option('siteurl') . '\/wp-content'} );"
+        },
+        "WP_PLUGIN_DIR",
+        {
+            "trigger": "WP_PLUGIN_DIR\tWP Define Constants",
+            "contents": "define( 'WP_PLUGIN_DIR', ${1:WP_CONTENT_DIR . '\/plugins'} );"
+        },
+        "WP_PLUGIN_URL",
+        {
+            "trigger": "WP_PLUGIN_URL\tWP Define Constants",
+            "contents": "define( 'WP_PLUGIN_URL', ${1:WP_CONTENT_URL . '\/plugins'} );"
+        },
+        "PLUGINDIR",
+        {
+            "trigger": "PLUGINDIR\tWP Define Constants",
+            "contents": "define( 'PLUGINDIR', ${1:'wp-content\/plugins'} );"
+        },
+        "WPMU_PLUGIN_DIR",
+        {
+            "trigger": "WPMU_PLUGIN_DIR\tWP Define Constants",
+            "contents": "define( 'WPMU_PLUGIN_DIR', ${1:WP_CONTENT_DIR . '\/mu-plugins'} );"
+        },
+        "WPMU_PLUGIN_URL",
+        {
+            "trigger": "WPMU_PLUGIN_URL\tWP Define Constants",
+            "contents": "define( 'WPMU_PLUGIN_URL', ${1:WP_CONTENT_URL . '\/mu-plugins'} );"
+        },
+        "MUPLUGINDIR",
+        {
+            "trigger": "MUPLUGINDIR\tWP Define Constants",
+            "contents": "define( 'MUPLUGINDIR', ${1:'wp-content\/mu-plugins'} );"
+        },
+        "COOKIEHASH",
+        {
+            "trigger": "COOKIEHASH\tWP Define Constants",
+            "contents": "define( 'COOKIEHASH', ${1:md5($siteurl)} );"
+        },
+        "USER_COOKIE",
+        {
+            "trigger": "USER_COOKIE\tWP Define Constants",
+            "contents": "define( 'USER_COOKIE', ${1:'wordpressuser_' . COOKIEHASH} );"
+        },
+        "PASS_COOKIE",
+        {
+            "trigger": "PASS_COOKIE\tWP Define Constants",
+            "contents": "define( 'PASS_COOKIE', ${1:'wordpresspass_' . COOKIEHASH} );"
+        },
+        "AUTH_COOKIE",
+        {
+            "trigger": "AUTH_COOKIE\tWP Define Constants",
+            "contents": "define( 'AUTH_COOKIE', ${1:'wordpress_' . COOKIEHASH} );"
+        },
+        "SECURE_AUTH_COOKIE",
+        {
+            "trigger": "SECURE_AUTH_COOKIE\tWP Define Constants",
+            "contents": "define( 'SECURE_AUTH_COOKIE', ${1:'wordpress_sec_' . COOKIEHASH} );"
+        },
+        "LOGGED_IN_COOKIE",
+        {
+            "trigger": "LOGGED_IN_COOKIE\tWP Define Constants",
+            "contents": "define( 'LOGGED_IN_COOKIE', ${1:'wordpress_logged_in_' . COOKIEHASH} );"
+        },
+        "TEST_COOKIE",
+        {
+            "trigger": "TEST_COOKIE\tWP Define Constants",
+            "contents": "define( 'TEST_COOKIE', ${1:'wordpress_test_cookie'} );"
+        },
+        "COOKIEPATH",
+        {
+            "trigger": "COOKIEPATH\tWP Define Constants",
+            "contents": "define( 'COOKIEPATH', ${1:preg_replace('|https?:\/\/[^\/]+|i', '', get_option('home') . '\/')} );"
+        },
+        "SITECOOKIEPATH",
+        {
+            "trigger": "SITECOOKIEPATH\tWP Define Constants",
+            "contents": "define( 'SITECOOKIEPATH', ${1:preg_replace('|https?:\/\/[^\/]+|i', '', get_option('siteurl') . '\/')} );"
+        },
+        "ADMIN_COOKIE_PATH",
+        {
+            "trigger": "ADMIN_COOKIE_PATH\tWP Define Constants",
+            "contents": "define( 'ADMIN_COOKIE_PATH', ${1:SITECOOKIEPATH . 'wp-admin'} );"
+        },
+        "PLUGINS_COOKIE_PATH",
+        {
+            "trigger": "PLUGINS_COOKIE_PATH\tWP Define Constants",
+            "contents": "define( 'PLUGINS_COOKIE_PATH', ${1:preg_replace('|https?:\/\/[^\/]+|i', '', WP_PLUGIN_URL)} );"
+        },
+        "COOKIE_DOMAIN",
+        {
+            "trigger": "COOKIE_DOMAIN\tWP Define Constants",
+            "contents": "define( 'COOKIE_DOMAIN', ${1:false} );"
+        },
+        "FORCE_SSL_ADMIN",
+        {
+            "trigger": "FORCE_SSL_ADMIN\tWP Define Constants",
+            "contents": "define( 'FORCE_SSL_ADMIN', ${1:true} );"
+        },
+        "AUTOSAVE_INTERVAL",
+        {
+            "trigger": "AUTOSAVE_INTERVAL\tWP Define Constants",
+            "contents": "define( 'AUTOSAVE_INTERVAL', ${1:60} );"
+        },
+        "EMPTY_TRASH_DAYS",
+        {
+            "trigger": "EMPTY_TRASH_DAYS\tWP Define Constants",
+            "contents": "define( 'EMPTY_TRASH_DAYS', ${1:30} );"
+        },
+        "WP_POST_REVISIONS",
+        {
+            "trigger": "WP_POST_REVISIONS\tWP Define Constants",
+            "contents": "define( 'WP_POST_REVISIONS', ${1:true} );"
+        },
+        "WP_CRON_LOCK_TIMEOUT",
+        {
+            "trigger": "WP_CRON_LOCK_TIMEOUT\tWP Define Constants",
+            "contents": "define( 'WP_CRON_LOCK_TIMEOUT', ${1:60} );"
+        },
+        "TEMPLATEPATH",
+        {
+            "trigger": "TEMPLATEPATH\tWP Define Constants",
+            "contents": "define( 'TEMPLATEPATH', ${1:get_template_directory()} );"
+        },
+        "STYLESHEETPATH",
+        {
+            "trigger": "STYLESHEETPATH\tWP Define Constants",
+            "contents": "define( 'STYLESHEETPATH', ${1:get_stylesheet_directory()} );"
+        },
+        "WP_DEFAULT_THEME",
+        {
+            "trigger": "WP_DEFAULT_THEME\tWP Define Constants",
+            "contents": "define( 'WP_DEFAULT_THEME', ${1:'twentynineteen'} );"
+        },
+        "PHP_INT_MIN",
+        {
+            "trigger": "PHP_INT_MIN\tWP Define Constants",
+            "contents": "define( 'PHP_INT_MIN', ${1:~PHP_INT_MAX} );"
+        },
+        "GETID3_OS_ISWINDOWS",
+        {
+            "trigger": "GETID3_OS_ISWINDOWS\tWP Define Constants",
+            "contents": "define( 'GETID3_OS_ISWINDOWS', ${1:stripos(PHP_OS, 'WIN') === 0} );"
+        },
+        "GETID3_INCLUDEPATH",
+        {
+            "trigger": "GETID3_INCLUDEPATH\tWP Define Constants",
+            "contents": "define( 'GETID3_INCLUDEPATH', ${1:dirname(__FILE__) . DIRECTORY_SEPARATOR} );"
+        },
+        "IMG_JPG",
+        {
+            "trigger": "IMG_JPG\tWP Define Constants",
+            "contents": "define( 'IMG_JPG', ${1:IMAGETYPE_JPEG} );"
+        },
+        "ENT_SUBSTITUTE",
+        {
+            "trigger": "ENT_SUBSTITUTE\tWP Define Constants",
+            "contents": "define( 'ENT_SUBSTITUTE', ${1:defined('ENT_IGNORE') ? ENT_IGNORE : 8} );"
+        },
+        "GETID3_HELPERAPPSDIR",
+        {
+            "trigger": "GETID3_HELPERAPPSDIR\tWP Define Constants",
+            "contents": "define( 'GETID3_HELPERAPPSDIR', ${1:$helperappsdir . DIRECTORY_SEPARATOR} );"
+        },
+        "$GUIDname",
+        {
+            "trigger": "$GUIDname\tWP Define Constants",
+            "contents": "define( '$GUIDname', ${1:$this->GUIDtoBytestring($hexstringvalue)} );"
+        },
+        "GETID3_FLV_TAG_AUDIO",
+        {
+            "trigger": "GETID3_FLV_TAG_AUDIO\tWP Define Constants",
+            "contents": "define( 'GETID3_FLV_TAG_AUDIO', ${1:8} );"
+        },
+        "GETID3_FLV_TAG_VIDEO",
+        {
+            "trigger": "GETID3_FLV_TAG_VIDEO\tWP Define Constants",
+            "contents": "define( 'GETID3_FLV_TAG_VIDEO', ${1:9} );"
+        },
+        "GETID3_FLV_TAG_META",
+        {
+            "trigger": "GETID3_FLV_TAG_META\tWP Define Constants",
+            "contents": "define( 'GETID3_FLV_TAG_META', ${1:18} );"
+        },
+        "GETID3_FLV_VIDEO_H263",
+        {
+            "trigger": "GETID3_FLV_VIDEO_H263\tWP Define Constants",
+            "contents": "define( 'GETID3_FLV_VIDEO_H263', ${1:2} );"
+        },
+        "GETID3_FLV_VIDEO_SCREEN",
+        {
+            "trigger": "GETID3_FLV_VIDEO_SCREEN\tWP Define Constants",
+            "contents": "define( 'GETID3_FLV_VIDEO_SCREEN', ${1:3} );"
+        },
+        "GETID3_FLV_VIDEO_VP6FLV",
+        {
+            "trigger": "GETID3_FLV_VIDEO_VP6FLV\tWP Define Constants",
+            "contents": "define( 'GETID3_FLV_VIDEO_VP6FLV', ${1:4} );"
+        },
+        "GETID3_FLV_VIDEO_VP6FLV_ALPHA",
+        {
+            "trigger": "GETID3_FLV_VIDEO_VP6FLV_ALPHA\tWP Define Constants",
+            "contents": "define( 'GETID3_FLV_VIDEO_VP6FLV_ALPHA', ${1:5} );"
+        },
+        "GETID3_FLV_VIDEO_SCREENV2",
+        {
+            "trigger": "GETID3_FLV_VIDEO_SCREENV2\tWP Define Constants",
+            "contents": "define( 'GETID3_FLV_VIDEO_SCREENV2', ${1:6} );"
+        },
+        "GETID3_FLV_VIDEO_H264",
+        {
+            "trigger": "GETID3_FLV_VIDEO_H264\tWP Define Constants",
+            "contents": "define( 'GETID3_FLV_VIDEO_H264', ${1:7} );"
+        },
+        "H264_AVC_SEQUENCE_HEADER",
+        {
+            "trigger": "H264_AVC_SEQUENCE_HEADER\tWP Define Constants",
+            "contents": "define( 'H264_AVC_SEQUENCE_HEADER', ${1:0} );"
+        },
+        "H264_PROFILE_BASELINE",
+        {
+            "trigger": "H264_PROFILE_BASELINE\tWP Define Constants",
+            "contents": "define( 'H264_PROFILE_BASELINE', ${1:66} );"
+        },
+        "H264_PROFILE_MAIN",
+        {
+            "trigger": "H264_PROFILE_MAIN\tWP Define Constants",
+            "contents": "define( 'H264_PROFILE_MAIN', ${1:77} );"
+        },
+        "H264_PROFILE_EXTENDED",
+        {
+            "trigger": "H264_PROFILE_EXTENDED\tWP Define Constants",
+            "contents": "define( 'H264_PROFILE_EXTENDED', ${1:88} );"
+        },
+        "H264_PROFILE_HIGH",
+        {
+            "trigger": "H264_PROFILE_HIGH\tWP Define Constants",
+            "contents": "define( 'H264_PROFILE_HIGH', ${1:100} );"
+        },
+        "H264_PROFILE_HIGH10",
+        {
+            "trigger": "H264_PROFILE_HIGH10\tWP Define Constants",
+            "contents": "define( 'H264_PROFILE_HIGH10', ${1:110} );"
+        },
+        "H264_PROFILE_HIGH422",
+        {
+            "trigger": "H264_PROFILE_HIGH422\tWP Define Constants",
+            "contents": "define( 'H264_PROFILE_HIGH422', ${1:122} );"
+        },
+        "H264_PROFILE_HIGH444",
+        {
+            "trigger": "H264_PROFILE_HIGH444\tWP Define Constants",
+            "contents": "define( 'H264_PROFILE_HIGH444', ${1:144} );"
+        },
+        "H264_PROFILE_HIGH444_PREDICTIVE",
+        {
+            "trigger": "H264_PROFILE_HIGH444_PREDICTIVE\tWP Define Constants",
+            "contents": "define( 'H264_PROFILE_HIGH444_PREDICTIVE', ${1:244} );"
+        },
+        "EBML_ID_CHAPTERS",
+        {
+            "trigger": "EBML_ID_CHAPTERS\tWP Define Constants",
+            "contents": "define( 'EBML_ID_CHAPTERS', ${1:4433776} );"
+        },
+        "EBML_ID_SEEKHEAD",
+        {
+            "trigger": "EBML_ID_SEEKHEAD\tWP Define Constants",
+            "contents": "define( 'EBML_ID_SEEKHEAD', ${1:21863284} );"
+        },
+        "EBML_ID_TAGS",
+        {
+            "trigger": "EBML_ID_TAGS\tWP Define Constants",
+            "contents": "define( 'EBML_ID_TAGS', ${1:39109479} );"
+        },
+        "EBML_ID_INFO",
+        {
+            "trigger": "EBML_ID_INFO\tWP Define Constants",
+            "contents": "define( 'EBML_ID_INFO', ${1:88713574} );"
+        },
+        "EBML_ID_TRACKS",
+        {
+            "trigger": "EBML_ID_TRACKS\tWP Define Constants",
+            "contents": "define( 'EBML_ID_TRACKS', ${1:106212971} );"
+        },
+        "EBML_ID_SEGMENT",
+        {
+            "trigger": "EBML_ID_SEGMENT\tWP Define Constants",
+            "contents": "define( 'EBML_ID_SEGMENT', ${1:139690087} );"
+        },
+        "EBML_ID_ATTACHMENTS",
+        {
+            "trigger": "EBML_ID_ATTACHMENTS\tWP Define Constants",
+            "contents": "define( 'EBML_ID_ATTACHMENTS', ${1:155296873} );"
+        },
+        "EBML_ID_EBML",
+        {
+            "trigger": "EBML_ID_EBML\tWP Define Constants",
+            "contents": "define( 'EBML_ID_EBML', ${1:172351395} );"
+        },
+        "EBML_ID_CUES",
+        {
+            "trigger": "EBML_ID_CUES\tWP Define Constants",
+            "contents": "define( 'EBML_ID_CUES', ${1:206814059} );"
+        },
+        "EBML_ID_CLUSTER",
+        {
+            "trigger": "EBML_ID_CLUSTER\tWP Define Constants",
+            "contents": "define( 'EBML_ID_CLUSTER', ${1:256095861} );"
+        },
+        "EBML_ID_LANGUAGE",
+        {
+            "trigger": "EBML_ID_LANGUAGE\tWP Define Constants",
+            "contents": "define( 'EBML_ID_LANGUAGE', ${1:177564} );"
+        },
+        "EBML_ID_TRACKTIMECODESCALE",
+        {
+            "trigger": "EBML_ID_TRACKTIMECODESCALE\tWP Define Constants",
+            "contents": "define( 'EBML_ID_TRACKTIMECODESCALE', ${1:209231} );"
+        },
+        "EBML_ID_DEFAULTDURATION",
+        {
+            "trigger": "EBML_ID_DEFAULTDURATION\tWP Define Constants",
+            "contents": "define( 'EBML_ID_DEFAULTDURATION', ${1:254851} );"
+        },
+        "EBML_ID_CODECNAME",
+        {
+            "trigger": "EBML_ID_CODECNAME\tWP Define Constants",
+            "contents": "define( 'EBML_ID_CODECNAME', ${1:362120} );"
+        },
+        "EBML_ID_CODECDOWNLOADURL",
+        {
+            "trigger": "EBML_ID_CODECDOWNLOADURL\tWP Define Constants",
+            "contents": "define( 'EBML_ID_CODECDOWNLOADURL', ${1:438848} );"
+        },
+        "EBML_ID_TIMECODESCALE",
+        {
+            "trigger": "EBML_ID_TIMECODESCALE\tWP Define Constants",
+            "contents": "define( 'EBML_ID_TIMECODESCALE', ${1:710577} );"
+        },
+        "EBML_ID_COLOURSPACE",
+        {
+            "trigger": "EBML_ID_COLOURSPACE\tWP Define Constants",
+            "contents": "define( 'EBML_ID_COLOURSPACE', ${1:963876} );"
+        },
+        "EBML_ID_GAMMAVALUE",
+        {
+            "trigger": "EBML_ID_GAMMAVALUE\tWP Define Constants",
+            "contents": "define( 'EBML_ID_GAMMAVALUE', ${1:1029411} );"
+        },
+        "EBML_ID_CODECSETTINGS",
+        {
+            "trigger": "EBML_ID_CODECSETTINGS\tWP Define Constants",
+            "contents": "define( 'EBML_ID_CODECSETTINGS', ${1:1742487} );"
+        },
+        "EBML_ID_CODECINFOURL",
+        {
+            "trigger": "EBML_ID_CODECINFOURL\tWP Define Constants",
+            "contents": "define( 'EBML_ID_CODECINFOURL', ${1:1785920} );"
+        },
+        "EBML_ID_PREVFILENAME",
+        {
+            "trigger": "EBML_ID_PREVFILENAME\tWP Define Constants",
+            "contents": "define( 'EBML_ID_PREVFILENAME', ${1:1868715} );"
+        },
+        "EBML_ID_PREVUID",
+        {
+            "trigger": "EBML_ID_PREVUID\tWP Define Constants",
+            "contents": "define( 'EBML_ID_PREVUID', ${1:1882403} );"
+        },
+        "EBML_ID_NEXTFILENAME",
+        {
+            "trigger": "EBML_ID_NEXTFILENAME\tWP Define Constants",
+            "contents": "define( 'EBML_ID_NEXTFILENAME', ${1:1999803} );"
+        },
+        "EBML_ID_NEXTUID",
+        {
+            "trigger": "EBML_ID_NEXTUID\tWP Define Constants",
+            "contents": "define( 'EBML_ID_NEXTUID', ${1:2013475} );"
+        },
+        "EBML_ID_CONTENTCOMPALGO",
+        {
+            "trigger": "EBML_ID_CONTENTCOMPALGO\tWP Define Constants",
+            "contents": "define( 'EBML_ID_CONTENTCOMPALGO', ${1:596} );"
+        },
+        "EBML_ID_CONTENTCOMPSETTINGS",
+        {
+            "trigger": "EBML_ID_CONTENTCOMPSETTINGS\tWP Define Constants",
+            "contents": "define( 'EBML_ID_CONTENTCOMPSETTINGS', ${1:597} );"
+        },
+        "EBML_ID_DOCTYPE",
+        {
+            "trigger": "EBML_ID_DOCTYPE\tWP Define Constants",
+            "contents": "define( 'EBML_ID_DOCTYPE', ${1:642} );"
+        },
+        "EBML_ID_DOCTYPEREADVERSION",
+        {
+            "trigger": "EBML_ID_DOCTYPEREADVERSION\tWP Define Constants",
+            "contents": "define( 'EBML_ID_DOCTYPEREADVERSION', ${1:645} );"
+        },
+        "EBML_ID_EBMLVERSION",
+        {
+            "trigger": "EBML_ID_EBMLVERSION\tWP Define Constants",
+            "contents": "define( 'EBML_ID_EBMLVERSION', ${1:646} );"
+        },
+        "EBML_ID_DOCTYPEVERSION",
+        {
+            "trigger": "EBML_ID_DOCTYPEVERSION\tWP Define Constants",
+            "contents": "define( 'EBML_ID_DOCTYPEVERSION', ${1:647} );"
+        },
+        "EBML_ID_EBMLMAXIDLENGTH",
+        {
+            "trigger": "EBML_ID_EBMLMAXIDLENGTH\tWP Define Constants",
+            "contents": "define( 'EBML_ID_EBMLMAXIDLENGTH', ${1:754} );"
+        },
+        "EBML_ID_EBMLMAXSIZELENGTH",
+        {
+            "trigger": "EBML_ID_EBMLMAXSIZELENGTH\tWP Define Constants",
+            "contents": "define( 'EBML_ID_EBMLMAXSIZELENGTH', ${1:755} );"
+        },
+        "EBML_ID_EBMLREADVERSION",
+        {
+            "trigger": "EBML_ID_EBMLREADVERSION\tWP Define Constants",
+            "contents": "define( 'EBML_ID_EBMLREADVERSION', ${1:759} );"
+        },
+        "EBML_ID_CHAPLANGUAGE",
+        {
+            "trigger": "EBML_ID_CHAPLANGUAGE\tWP Define Constants",
+            "contents": "define( 'EBML_ID_CHAPLANGUAGE', ${1:892} );"
+        },
+        "EBML_ID_CHAPCOUNTRY",
+        {
+            "trigger": "EBML_ID_CHAPCOUNTRY\tWP Define Constants",
+            "contents": "define( 'EBML_ID_CHAPCOUNTRY', ${1:894} );"
+        },
+        "EBML_ID_SEGMENTFAMILY",
+        {
+            "trigger": "EBML_ID_SEGMENTFAMILY\tWP Define Constants",
+            "contents": "define( 'EBML_ID_SEGMENTFAMILY', ${1:1092} );"
+        },
+        "EBML_ID_DATEUTC",
+        {
+            "trigger": "EBML_ID_DATEUTC\tWP Define Constants",
+            "contents": "define( 'EBML_ID_DATEUTC', ${1:1121} );"
+        },
+        "EBML_ID_TAGLANGUAGE",
+        {
+            "trigger": "EBML_ID_TAGLANGUAGE\tWP Define Constants",
+            "contents": "define( 'EBML_ID_TAGLANGUAGE', ${1:1146} );"
+        },
+        "EBML_ID_TAGDEFAULT",
+        {
+            "trigger": "EBML_ID_TAGDEFAULT\tWP Define Constants",
+            "contents": "define( 'EBML_ID_TAGDEFAULT', ${1:1156} );"
+        },
+        "EBML_ID_TAGBINARY",
+        {
+            "trigger": "EBML_ID_TAGBINARY\tWP Define Constants",
+            "contents": "define( 'EBML_ID_TAGBINARY', ${1:1157} );"
+        },
+        "EBML_ID_TAGSTRING",
+        {
+            "trigger": "EBML_ID_TAGSTRING\tWP Define Constants",
+            "contents": "define( 'EBML_ID_TAGSTRING', ${1:1159} );"
+        },
+        "EBML_ID_DURATION",
+        {
+            "trigger": "EBML_ID_DURATION\tWP Define Constants",
+            "contents": "define( 'EBML_ID_DURATION', ${1:1161} );"
+        },
+        "EBML_ID_CHAPPROCESSPRIVATE",
+        {
+            "trigger": "EBML_ID_CHAPPROCESSPRIVATE\tWP Define Constants",
+            "contents": "define( 'EBML_ID_CHAPPROCESSPRIVATE', ${1:1293} );"
+        },
+        "EBML_ID_CHAPTERFLAGENABLED",
+        {
+            "trigger": "EBML_ID_CHAPTERFLAGENABLED\tWP Define Constants",
+            "contents": "define( 'EBML_ID_CHAPTERFLAGENABLED', ${1:1432} );"
+        },
+        "EBML_ID_TAGNAME",
+        {
+            "trigger": "EBML_ID_TAGNAME\tWP Define Constants",
+            "contents": "define( 'EBML_ID_TAGNAME', ${1:1443} );"
+        },
+        "EBML_ID_EDITIONENTRY",
+        {
+            "trigger": "EBML_ID_EDITIONENTRY\tWP Define Constants",
+            "contents": "define( 'EBML_ID_EDITIONENTRY', ${1:1465} );"
+        },
+        "EBML_ID_EDITIONUID",
+        {
+            "trigger": "EBML_ID_EDITIONUID\tWP Define Constants",
+            "contents": "define( 'EBML_ID_EDITIONUID', ${1:1468} );"
+        },
+        "EBML_ID_EDITIONFLAGHIDDEN",
+        {
+            "trigger": "EBML_ID_EDITIONFLAGHIDDEN\tWP Define Constants",
+            "contents": "define( 'EBML_ID_EDITIONFLAGHIDDEN', ${1:1469} );"
+        },
+        "EBML_ID_EDITIONFLAGDEFAULT",
+        {
+            "trigger": "EBML_ID_EDITIONFLAGDEFAULT\tWP Define Constants",
+            "contents": "define( 'EBML_ID_EDITIONFLAGDEFAULT', ${1:1499} );"
+        },
+        "EBML_ID_EDITIONFLAGORDERED",
+        {
+            "trigger": "EBML_ID_EDITIONFLAGORDERED\tWP Define Constants",
+            "contents": "define( 'EBML_ID_EDITIONFLAGORDERED', ${1:1501} );"
+        },
+        "EBML_ID_FILEDATA",
+        {
+            "trigger": "EBML_ID_FILEDATA\tWP Define Constants",
+            "contents": "define( 'EBML_ID_FILEDATA', ${1:1628} );"
+        },
+        "EBML_ID_FILEMIMETYPE",
+        {
+            "trigger": "EBML_ID_FILEMIMETYPE\tWP Define Constants",
+            "contents": "define( 'EBML_ID_FILEMIMETYPE', ${1:1632} );"
+        },
+        "EBML_ID_FILENAME",
+        {
+            "trigger": "EBML_ID_FILENAME\tWP Define Constants",
+            "contents": "define( 'EBML_ID_FILENAME', ${1:1646} );"
+        },
+        "EBML_ID_FILEREFERRAL",
+        {
+            "trigger": "EBML_ID_FILEREFERRAL\tWP Define Constants",
+            "contents": "define( 'EBML_ID_FILEREFERRAL', ${1:1653} );"
+        },
+        "EBML_ID_FILEDESCRIPTION",
+        {
+            "trigger": "EBML_ID_FILEDESCRIPTION\tWP Define Constants",
+            "contents": "define( 'EBML_ID_FILEDESCRIPTION', ${1:1662} );"
+        },
+        "EBML_ID_FILEUID",
+        {
+            "trigger": "EBML_ID_FILEUID\tWP Define Constants",
+            "contents": "define( 'EBML_ID_FILEUID', ${1:1710} );"
+        },
+        "EBML_ID_CONTENTENCALGO",
+        {
+            "trigger": "EBML_ID_CONTENTENCALGO\tWP Define Constants",
+            "contents": "define( 'EBML_ID_CONTENTENCALGO', ${1:2017} );"
+        },
+        "EBML_ID_CONTENTENCKEYID",
+        {
+            "trigger": "EBML_ID_CONTENTENCKEYID\tWP Define Constants",
+            "contents": "define( 'EBML_ID_CONTENTENCKEYID', ${1:2018} );"
+        },
+        "EBML_ID_CONTENTSIGNATURE",
+        {
+            "trigger": "EBML_ID_CONTENTSIGNATURE\tWP Define Constants",
+            "contents": "define( 'EBML_ID_CONTENTSIGNATURE', ${1:2019} );"
+        },
+        "EBML_ID_CONTENTSIGKEYID",
+        {
+            "trigger": "EBML_ID_CONTENTSIGKEYID\tWP Define Constants",
+            "contents": "define( 'EBML_ID_CONTENTSIGKEYID', ${1:2020} );"
+        },
+        "EBML_ID_CONTENTSIGALGO",
+        {
+            "trigger": "EBML_ID_CONTENTSIGALGO\tWP Define Constants",
+            "contents": "define( 'EBML_ID_CONTENTSIGALGO', ${1:2021} );"
+        },
+        "EBML_ID_CONTENTSIGHASHALGO",
+        {
+            "trigger": "EBML_ID_CONTENTSIGHASHALGO\tWP Define Constants",
+            "contents": "define( 'EBML_ID_CONTENTSIGHASHALGO', ${1:2022} );"
+        },
+        "EBML_ID_MUXINGAPP",
+        {
+            "trigger": "EBML_ID_MUXINGAPP\tWP Define Constants",
+            "contents": "define( 'EBML_ID_MUXINGAPP', ${1:3456} );"
+        },
+        "EBML_ID_SEEK",
+        {
+            "trigger": "EBML_ID_SEEK\tWP Define Constants",
+            "contents": "define( 'EBML_ID_SEEK', ${1:3515} );"
+        },
+        "EBML_ID_CONTENTENCODINGORDER",
+        {
+            "trigger": "EBML_ID_CONTENTENCODINGORDER\tWP Define Constants",
+            "contents": "define( 'EBML_ID_CONTENTENCODINGORDER', ${1:4145} );"
+        },
+        "EBML_ID_CONTENTENCODINGSCOPE",
+        {
+            "trigger": "EBML_ID_CONTENTENCODINGSCOPE\tWP Define Constants",
+            "contents": "define( 'EBML_ID_CONTENTENCODINGSCOPE', ${1:4146} );"
+        },
+        "EBML_ID_CONTENTENCODINGTYPE",
+        {
+            "trigger": "EBML_ID_CONTENTENCODINGTYPE\tWP Define Constants",
+            "contents": "define( 'EBML_ID_CONTENTENCODINGTYPE', ${1:4147} );"
+        },
+        "EBML_ID_CONTENTCOMPRESSION",
+        {
+            "trigger": "EBML_ID_CONTENTCOMPRESSION\tWP Define Constants",
+            "contents": "define( 'EBML_ID_CONTENTCOMPRESSION', ${1:4148} );"
+        },
+        "EBML_ID_CONTENTENCRYPTION",
+        {
+            "trigger": "EBML_ID_CONTENTENCRYPTION\tWP Define Constants",
+            "contents": "define( 'EBML_ID_CONTENTENCRYPTION', ${1:4149} );"
+        },
+        "EBML_ID_CUEREFNUMBER",
+        {
+            "trigger": "EBML_ID_CUEREFNUMBER\tWP Define Constants",
+            "contents": "define( 'EBML_ID_CUEREFNUMBER', ${1:4959} );"
+        },
+        "EBML_ID_NAME",
+        {
+            "trigger": "EBML_ID_NAME\tWP Define Constants",
+            "contents": "define( 'EBML_ID_NAME', ${1:4974} );"
+        },
+        "EBML_ID_CUEBLOCKNUMBER",
+        {
+            "trigger": "EBML_ID_CUEBLOCKNUMBER\tWP Define Constants",
+            "contents": "define( 'EBML_ID_CUEBLOCKNUMBER', ${1:4984} );"
+        },
+        "EBML_ID_TRACKOFFSET",
+        {
+            "trigger": "EBML_ID_TRACKOFFSET\tWP Define Constants",
+            "contents": "define( 'EBML_ID_TRACKOFFSET', ${1:4991} );"
+        },
+        "EBML_ID_SEEKID",
+        {
+            "trigger": "EBML_ID_SEEKID\tWP Define Constants",
+            "contents": "define( 'EBML_ID_SEEKID', ${1:5035} );"
+        },
+        "EBML_ID_SEEKPOSITION",
+        {
+            "trigger": "EBML_ID_SEEKPOSITION\tWP Define Constants",
+            "contents": "define( 'EBML_ID_SEEKPOSITION', ${1:5036} );"
+        },
+        "EBML_ID_STEREOMODE",
+        {
+            "trigger": "EBML_ID_STEREOMODE\tWP Define Constants",
+            "contents": "define( 'EBML_ID_STEREOMODE', ${1:5048} );"
+        },
+        "EBML_ID_OLDSTEREOMODE",
+        {
+            "trigger": "EBML_ID_OLDSTEREOMODE\tWP Define Constants",
+            "contents": "define( 'EBML_ID_OLDSTEREOMODE', ${1:5049} );"
+        },
+        "EBML_ID_PIXELCROPBOTTOM",
+        {
+            "trigger": "EBML_ID_PIXELCROPBOTTOM\tWP Define Constants",
+            "contents": "define( 'EBML_ID_PIXELCROPBOTTOM', ${1:5290} );"
+        },
+        "EBML_ID_DISPLAYWIDTH",
+        {
+            "trigger": "EBML_ID_DISPLAYWIDTH\tWP Define Constants",
+            "contents": "define( 'EBML_ID_DISPLAYWIDTH', ${1:5296} );"
+        },
+        "EBML_ID_DISPLAYUNIT",
+        {
+            "trigger": "EBML_ID_DISPLAYUNIT\tWP Define Constants",
+            "contents": "define( 'EBML_ID_DISPLAYUNIT', ${1:5298} );"
+        },
+        "EBML_ID_ASPECTRATIOTYPE",
+        {
+            "trigger": "EBML_ID_ASPECTRATIOTYPE\tWP Define Constants",
+            "contents": "define( 'EBML_ID_ASPECTRATIOTYPE', ${1:5299} );"
+        },
+        "EBML_ID_DISPLAYHEIGHT",
+        {
+            "trigger": "EBML_ID_DISPLAYHEIGHT\tWP Define Constants",
+            "contents": "define( 'EBML_ID_DISPLAYHEIGHT', ${1:5306} );"
+        },
+        "EBML_ID_PIXELCROPTOP",
+        {
+            "trigger": "EBML_ID_PIXELCROPTOP\tWP Define Constants",
+            "contents": "define( 'EBML_ID_PIXELCROPTOP', ${1:5307} );"
+        },
+        "EBML_ID_PIXELCROPLEFT",
+        {
+            "trigger": "EBML_ID_PIXELCROPLEFT\tWP Define Constants",
+            "contents": "define( 'EBML_ID_PIXELCROPLEFT', ${1:5324} );"
+        },
+        "EBML_ID_PIXELCROPRIGHT",
+        {
+            "trigger": "EBML_ID_PIXELCROPRIGHT\tWP Define Constants",
+            "contents": "define( 'EBML_ID_PIXELCROPRIGHT', ${1:5341} );"
+        },
+        "EBML_ID_FLAGFORCED",
+        {
+            "trigger": "EBML_ID_FLAGFORCED\tWP Define Constants",
+            "contents": "define( 'EBML_ID_FLAGFORCED', ${1:5546} );"
+        },
+        "EBML_ID_MAXBLOCKADDITIONID",
+        {
+            "trigger": "EBML_ID_MAXBLOCKADDITIONID\tWP Define Constants",
+            "contents": "define( 'EBML_ID_MAXBLOCKADDITIONID', ${1:5614} );"
+        },
+        "EBML_ID_WRITINGAPP",
+        {
+            "trigger": "EBML_ID_WRITINGAPP\tWP Define Constants",
+            "contents": "define( 'EBML_ID_WRITINGAPP', ${1:5953} );"
+        },
+        "EBML_ID_CLUSTERSILENTTRACKS",
+        {
+            "trigger": "EBML_ID_CLUSTERSILENTTRACKS\tWP Define Constants",
+            "contents": "define( 'EBML_ID_CLUSTERSILENTTRACKS', ${1:6228} );"
+        },
+        "EBML_ID_CLUSTERSILENTTRACKNUMBER",
+        {
+            "trigger": "EBML_ID_CLUSTERSILENTTRACKNUMBER\tWP Define Constants",
+            "contents": "define( 'EBML_ID_CLUSTERSILENTTRACKNUMBER', ${1:6359} );"
+        },
+        "EBML_ID_ATTACHEDFILE",
+        {
+            "trigger": "EBML_ID_ATTACHEDFILE\tWP Define Constants",
+            "contents": "define( 'EBML_ID_ATTACHEDFILE', ${1:8615} );"
+        },
+        "EBML_ID_CONTENTENCODING",
+        {
+            "trigger": "EBML_ID_CONTENTENCODING\tWP Define Constants",
+            "contents": "define( 'EBML_ID_CONTENTENCODING', ${1:8768} );"
+        },
+        "EBML_ID_BITDEPTH",
+        {
+            "trigger": "EBML_ID_BITDEPTH\tWP Define Constants",
+            "contents": "define( 'EBML_ID_BITDEPTH', ${1:8804} );"
+        },
+        "EBML_ID_CODECPRIVATE",
+        {
+            "trigger": "EBML_ID_CODECPRIVATE\tWP Define Constants",
+            "contents": "define( 'EBML_ID_CODECPRIVATE', ${1:9122} );"
+        },
+        "EBML_ID_TARGETS",
+        {
+            "trigger": "EBML_ID_TARGETS\tWP Define Constants",
+            "contents": "define( 'EBML_ID_TARGETS', ${1:9152} );"
+        },
+        "EBML_ID_CHAPTERPHYSICALEQUIV",
+        {
+            "trigger": "EBML_ID_CHAPTERPHYSICALEQUIV\tWP Define Constants",
+            "contents": "define( 'EBML_ID_CHAPTERPHYSICALEQUIV', ${1:9155} );"
+        },
+        "EBML_ID_TAGCHAPTERUID",
+        {
+            "trigger": "EBML_ID_TAGCHAPTERUID\tWP Define Constants",
+            "contents": "define( 'EBML_ID_TAGCHAPTERUID', ${1:9156} );"
+        },
+        "EBML_ID_TAGTRACKUID",
+        {
+            "trigger": "EBML_ID_TAGTRACKUID\tWP Define Constants",
+            "contents": "define( 'EBML_ID_TAGTRACKUID', ${1:9157} );"
+        },
+        "EBML_ID_TAGATTACHMENTUID",
+        {
+            "trigger": "EBML_ID_TAGATTACHMENTUID\tWP Define Constants",
+            "contents": "define( 'EBML_ID_TAGATTACHMENTUID', ${1:9158} );"
+        },
+        "EBML_ID_TAGEDITIONUID",
+        {
+            "trigger": "EBML_ID_TAGEDITIONUID\tWP Define Constants",
+            "contents": "define( 'EBML_ID_TAGEDITIONUID', ${1:9161} );"
+        },
+        "EBML_ID_TARGETTYPE",
+        {
+            "trigger": "EBML_ID_TARGETTYPE\tWP Define Constants",
+            "contents": "define( 'EBML_ID_TARGETTYPE', ${1:9162} );"
+        },
+        "EBML_ID_TRACKTRANSLATE",
+        {
+            "trigger": "EBML_ID_TRACKTRANSLATE\tWP Define Constants",
+            "contents": "define( 'EBML_ID_TRACKTRANSLATE', ${1:9764} );"
+        },
+        "EBML_ID_TRACKTRANSLATETRACKID",
+        {
+            "trigger": "EBML_ID_TRACKTRANSLATETRACKID\tWP Define Constants",
+            "contents": "define( 'EBML_ID_TRACKTRANSLATETRACKID', ${1:9893} );"
+        },
+        "EBML_ID_TRACKTRANSLATECODEC",
+        {
+            "trigger": "EBML_ID_TRACKTRANSLATECODEC\tWP Define Constants",
+            "contents": "define( 'EBML_ID_TRACKTRANSLATECODEC', ${1:9919} );"
+        },
+        "EBML_ID_TRACKTRANSLATEEDITIONUID",
+        {
+            "trigger": "EBML_ID_TRACKTRANSLATEEDITIONUID\tWP Define Constants",
+            "contents": "define( 'EBML_ID_TRACKTRANSLATEEDITIONUID', ${1:9980} );"
+        },
+        "EBML_ID_SIMPLETAG",
+        {
+            "trigger": "EBML_ID_SIMPLETAG\tWP Define Constants",
+            "contents": "define( 'EBML_ID_SIMPLETAG', ${1:10184} );"
+        },
+        "EBML_ID_TARGETTYPEVALUE",
+        {
+            "trigger": "EBML_ID_TARGETTYPEVALUE\tWP Define Constants",
+            "contents": "define( 'EBML_ID_TARGETTYPEVALUE', ${1:10442} );"
+        },
+        "EBML_ID_CHAPPROCESSCOMMAND",
+        {
+            "trigger": "EBML_ID_CHAPPROCESSCOMMAND\tWP Define Constants",
+            "contents": "define( 'EBML_ID_CHAPPROCESSCOMMAND', ${1:10513} );"
+        },
+        "EBML_ID_CHAPPROCESSTIME",
+        {
+            "trigger": "EBML_ID_CHAPPROCESSTIME\tWP Define Constants",
+            "contents": "define( 'EBML_ID_CHAPPROCESSTIME', ${1:10530} );"
+        },
+        "EBML_ID_CHAPTERTRANSLATE",
+        {
+            "trigger": "EBML_ID_CHAPTERTRANSLATE\tWP Define Constants",
+            "contents": "define( 'EBML_ID_CHAPTERTRANSLATE', ${1:10532} );"
+        },
+        "EBML_ID_CHAPPROCESSDATA",
+        {
+            "trigger": "EBML_ID_CHAPPROCESSDATA\tWP Define Constants",
+            "contents": "define( 'EBML_ID_CHAPPROCESSDATA', ${1:10547} );"
+        },
+        "EBML_ID_CHAPPROCESS",
+        {
+            "trigger": "EBML_ID_CHAPPROCESS\tWP Define Constants",
+            "contents": "define( 'EBML_ID_CHAPPROCESS', ${1:10564} );"
+        },
+        "EBML_ID_CHAPPROCESSCODECID",
+        {
+            "trigger": "EBML_ID_CHAPPROCESSCODECID\tWP Define Constants",
+            "contents": "define( 'EBML_ID_CHAPPROCESSCODECID', ${1:10581} );"
+        },
+        "EBML_ID_CHAPTERTRANSLATEID",
+        {
+            "trigger": "EBML_ID_CHAPTERTRANSLATEID\tWP Define Constants",
+            "contents": "define( 'EBML_ID_CHAPTERTRANSLATEID', ${1:10661} );"
+        },
+        "EBML_ID_CHAPTERTRANSLATECODEC",
+        {
+            "trigger": "EBML_ID_CHAPTERTRANSLATECODEC\tWP Define Constants",
+            "contents": "define( 'EBML_ID_CHAPTERTRANSLATECODEC', ${1:10687} );"
+        },
+        "EBML_ID_CHAPTERTRANSLATEEDITIONUID",
+        {
+            "trigger": "EBML_ID_CHAPTERTRANSLATEEDITIONUID\tWP Define Constants",
+            "contents": "define( 'EBML_ID_CHAPTERTRANSLATEEDITIONUID', ${1:10748} );"
+        },
+        "EBML_ID_CONTENTENCODINGS",
+        {
+            "trigger": "EBML_ID_CONTENTENCODINGS\tWP Define Constants",
+            "contents": "define( 'EBML_ID_CONTENTENCODINGS', ${1:11648} );"
+        },
+        "EBML_ID_MINCACHE",
+        {
+            "trigger": "EBML_ID_MINCACHE\tWP Define Constants",
+            "contents": "define( 'EBML_ID_MINCACHE', ${1:11751} );"
+        },
+        "EBML_ID_MAXCACHE",
+        {
+            "trigger": "EBML_ID_MAXCACHE\tWP Define Constants",
+            "contents": "define( 'EBML_ID_MAXCACHE', ${1:11768} );"
+        },
+        "EBML_ID_CHAPTERSEGMENTUID",
+        {
+            "trigger": "EBML_ID_CHAPTERSEGMENTUID\tWP Define Constants",
+            "contents": "define( 'EBML_ID_CHAPTERSEGMENTUID', ${1:11879} );"
+        },
+        "EBML_ID_CHAPTERSEGMENTEDITIONUID",
+        {
+            "trigger": "EBML_ID_CHAPTERSEGMENTEDITIONUID\tWP Define Constants",
+            "contents": "define( 'EBML_ID_CHAPTERSEGMENTEDITIONUID', ${1:11964} );"
+        },
+        "EBML_ID_TRACKOVERLAY",
+        {
+            "trigger": "EBML_ID_TRACKOVERLAY\tWP Define Constants",
+            "contents": "define( 'EBML_ID_TRACKOVERLAY', ${1:12203} );"
+        },
+        "EBML_ID_TAG",
+        {
+            "trigger": "EBML_ID_TAG\tWP Define Constants",
+            "contents": "define( 'EBML_ID_TAG', ${1:13171} );"
+        },
+        "EBML_ID_SEGMENTFILENAME",
+        {
+            "trigger": "EBML_ID_SEGMENTFILENAME\tWP Define Constants",
+            "contents": "define( 'EBML_ID_SEGMENTFILENAME', ${1:13188} );"
+        },
+        "EBML_ID_SEGMENTUID",
+        {
+            "trigger": "EBML_ID_SEGMENTUID\tWP Define Constants",
+            "contents": "define( 'EBML_ID_SEGMENTUID', ${1:13220} );"
+        },
+        "EBML_ID_CHAPTERUID",
+        {
+            "trigger": "EBML_ID_CHAPTERUID\tWP Define Constants",
+            "contents": "define( 'EBML_ID_CHAPTERUID', ${1:13252} );"
+        },
+        "EBML_ID_TRACKUID",
+        {
+            "trigger": "EBML_ID_TRACKUID\tWP Define Constants",
+            "contents": "define( 'EBML_ID_TRACKUID', ${1:13253} );"
+        },
+        "EBML_ID_ATTACHMENTLINK",
+        {
+            "trigger": "EBML_ID_ATTACHMENTLINK\tWP Define Constants",
+            "contents": "define( 'EBML_ID_ATTACHMENTLINK', ${1:13382} );"
+        },
+        "EBML_ID_CLUSTERBLOCKADDITIONS",
+        {
+            "trigger": "EBML_ID_CLUSTERBLOCKADDITIONS\tWP Define Constants",
+            "contents": "define( 'EBML_ID_CLUSTERBLOCKADDITIONS', ${1:13729} );"
+        },
+        "EBML_ID_CHANNELPOSITIONS",
+        {
+            "trigger": "EBML_ID_CHANNELPOSITIONS\tWP Define Constants",
+            "contents": "define( 'EBML_ID_CHANNELPOSITIONS', ${1:13435} );"
+        },
+        "EBML_ID_OUTPUTSAMPLINGFREQUENCY",
+        {
+            "trigger": "EBML_ID_OUTPUTSAMPLINGFREQUENCY\tWP Define Constants",
+            "contents": "define( 'EBML_ID_OUTPUTSAMPLINGFREQUENCY', ${1:14517} );"
+        },
+        "EBML_ID_TITLE",
+        {
+            "trigger": "EBML_ID_TITLE\tWP Define Constants",
+            "contents": "define( 'EBML_ID_TITLE', ${1:15273} );"
+        },
+        "EBML_ID_CHAPTERDISPLAY",
+        {
+            "trigger": "EBML_ID_CHAPTERDISPLAY\tWP Define Constants",
+            "contents": "define( 'EBML_ID_CHAPTERDISPLAY', ${1:0} );"
+        },
+        "EBML_ID_TRACKTYPE",
+        {
+            "trigger": "EBML_ID_TRACKTYPE\tWP Define Constants",
+            "contents": "define( 'EBML_ID_TRACKTYPE', ${1:3} );"
+        },
+        "EBML_ID_CHAPSTRING",
+        {
+            "trigger": "EBML_ID_CHAPSTRING\tWP Define Constants",
+            "contents": "define( 'EBML_ID_CHAPSTRING', ${1:5} );"
+        },
+        "EBML_ID_CODECID",
+        {
+            "trigger": "EBML_ID_CODECID\tWP Define Constants",
+            "contents": "define( 'EBML_ID_CODECID', ${1:6} );"
+        },
+        "EBML_ID_FLAGDEFAULT",
+        {
+            "trigger": "EBML_ID_FLAGDEFAULT\tWP Define Constants",
+            "contents": "define( 'EBML_ID_FLAGDEFAULT', ${1:8} );"
+        },
+        "EBML_ID_CHAPTERTRACKNUMBER",
+        {
+            "trigger": "EBML_ID_CHAPTERTRACKNUMBER\tWP Define Constants",
+            "contents": "define( 'EBML_ID_CHAPTERTRACKNUMBER', ${1:9} );"
+        },
+        "EBML_ID_CLUSTERSLICES",
+        {
+            "trigger": "EBML_ID_CLUSTERSLICES\tWP Define Constants",
+            "contents": "define( 'EBML_ID_CLUSTERSLICES', ${1:14} );"
+        },
+        "EBML_ID_CHAPTERTRACK",
+        {
+            "trigger": "EBML_ID_CHAPTERTRACK\tWP Define Constants",
+            "contents": "define( 'EBML_ID_CHAPTERTRACK', ${1:15} );"
+        },
+        "EBML_ID_CHAPTERTIMESTART",
+        {
+            "trigger": "EBML_ID_CHAPTERTIMESTART\tWP Define Constants",
+            "contents": "define( 'EBML_ID_CHAPTERTIMESTART', ${1:17} );"
+        },
+        "EBML_ID_CHAPTERTIMEEND",
+        {
+            "trigger": "EBML_ID_CHAPTERTIMEEND\tWP Define Constants",
+            "contents": "define( 'EBML_ID_CHAPTERTIMEEND', ${1:18} );"
+        },
+        "EBML_ID_CUEREFTIME",
+        {
+            "trigger": "EBML_ID_CUEREFTIME\tWP Define Constants",
+            "contents": "define( 'EBML_ID_CUEREFTIME', ${1:22} );"
+        },
+        "EBML_ID_CUEREFCLUSTER",
+        {
+            "trigger": "EBML_ID_CUEREFCLUSTER\tWP Define Constants",
+            "contents": "define( 'EBML_ID_CUEREFCLUSTER', ${1:23} );"
+        },
+        "EBML_ID_CHAPTERFLAGHIDDEN",
+        {
+            "trigger": "EBML_ID_CHAPTERFLAGHIDDEN\tWP Define Constants",
+            "contents": "define( 'EBML_ID_CHAPTERFLAGHIDDEN', ${1:24} );"
+        },
+        "EBML_ID_FLAGINTERLACED",
+        {
+            "trigger": "EBML_ID_FLAGINTERLACED\tWP Define Constants",
+            "contents": "define( 'EBML_ID_FLAGINTERLACED', ${1:26} );"
+        },
+        "EBML_ID_CLUSTERBLOCKDURATION",
+        {
+            "trigger": "EBML_ID_CLUSTERBLOCKDURATION\tWP Define Constants",
+            "contents": "define( 'EBML_ID_CLUSTERBLOCKDURATION', ${1:27} );"
+        },
+        "EBML_ID_FLAGLACING",
+        {
+            "trigger": "EBML_ID_FLAGLACING\tWP Define Constants",
+            "contents": "define( 'EBML_ID_FLAGLACING', ${1:28} );"
+        },
+        "EBML_ID_CHANNELS",
+        {
+            "trigger": "EBML_ID_CHANNELS\tWP Define Constants",
+            "contents": "define( 'EBML_ID_CHANNELS', ${1:31} );"
+        },
+        "EBML_ID_CLUSTERBLOCKGROUP",
+        {
+            "trigger": "EBML_ID_CLUSTERBLOCKGROUP\tWP Define Constants",
+            "contents": "define( 'EBML_ID_CLUSTERBLOCKGROUP', ${1:32} );"
+        },
+        "EBML_ID_CLUSTERBLOCK",
+        {
+            "trigger": "EBML_ID_CLUSTERBLOCK\tWP Define Constants",
+            "contents": "define( 'EBML_ID_CLUSTERBLOCK', ${1:33} );"
+        },
+        "EBML_ID_CLUSTERBLOCKVIRTUAL",
+        {
+            "trigger": "EBML_ID_CLUSTERBLOCKVIRTUAL\tWP Define Constants",
+            "contents": "define( 'EBML_ID_CLUSTERBLOCKVIRTUAL', ${1:34} );"
+        },
+        "EBML_ID_CLUSTERSIMPLEBLOCK",
+        {
+            "trigger": "EBML_ID_CLUSTERSIMPLEBLOCK\tWP Define Constants",
+            "contents": "define( 'EBML_ID_CLUSTERSIMPLEBLOCK', ${1:35} );"
+        },
+        "EBML_ID_CLUSTERCODECSTATE",
+        {
+            "trigger": "EBML_ID_CLUSTERCODECSTATE\tWP Define Constants",
+            "contents": "define( 'EBML_ID_CLUSTERCODECSTATE', ${1:36} );"
+        },
+        "EBML_ID_CLUSTERBLOCKADDITIONAL",
+        {
+            "trigger": "EBML_ID_CLUSTERBLOCKADDITIONAL\tWP Define Constants",
+            "contents": "define( 'EBML_ID_CLUSTERBLOCKADDITIONAL', ${1:37} );"
+        },
+        "EBML_ID_CLUSTERBLOCKMORE",
+        {
+            "trigger": "EBML_ID_CLUSTERBLOCKMORE\tWP Define Constants",
+            "contents": "define( 'EBML_ID_CLUSTERBLOCKMORE', ${1:38} );"
+        },
+        "EBML_ID_CLUSTERPOSITION",
+        {
+            "trigger": "EBML_ID_CLUSTERPOSITION\tWP Define Constants",
+            "contents": "define( 'EBML_ID_CLUSTERPOSITION', ${1:39} );"
+        },
+        "EBML_ID_CODECDECODEALL",
+        {
+            "trigger": "EBML_ID_CODECDECODEALL\tWP Define Constants",
+            "contents": "define( 'EBML_ID_CODECDECODEALL', ${1:42} );"
+        },
+        "EBML_ID_CLUSTERPREVSIZE",
+        {
+            "trigger": "EBML_ID_CLUSTERPREVSIZE\tWP Define Constants",
+            "contents": "define( 'EBML_ID_CLUSTERPREVSIZE', ${1:43} );"
+        },
+        "EBML_ID_TRACKENTRY",
+        {
+            "trigger": "EBML_ID_TRACKENTRY\tWP Define Constants",
+            "contents": "define( 'EBML_ID_TRACKENTRY', ${1:46} );"
+        },
+        "EBML_ID_CLUSTERENCRYPTEDBLOCK",
+        {
+            "trigger": "EBML_ID_CLUSTERENCRYPTEDBLOCK\tWP Define Constants",
+            "contents": "define( 'EBML_ID_CLUSTERENCRYPTEDBLOCK', ${1:47} );"
+        },
+        "EBML_ID_PIXELWIDTH",
+        {
+            "trigger": "EBML_ID_PIXELWIDTH\tWP Define Constants",
+            "contents": "define( 'EBML_ID_PIXELWIDTH', ${1:48} );"
+        },
+        "EBML_ID_CUETIME",
+        {
+            "trigger": "EBML_ID_CUETIME\tWP Define Constants",
+            "contents": "define( 'EBML_ID_CUETIME', ${1:51} );"
+        },
+        "EBML_ID_SAMPLINGFREQUENCY",
+        {
+            "trigger": "EBML_ID_SAMPLINGFREQUENCY\tWP Define Constants",
+            "contents": "define( 'EBML_ID_SAMPLINGFREQUENCY', ${1:53} );"
+        },
+        "EBML_ID_CHAPTERATOM",
+        {
+            "trigger": "EBML_ID_CHAPTERATOM\tWP Define Constants",
+            "contents": "define( 'EBML_ID_CHAPTERATOM', ${1:54} );"
+        },
+        "EBML_ID_CUETRACKPOSITIONS",
+        {
+            "trigger": "EBML_ID_CUETRACKPOSITIONS\tWP Define Constants",
+            "contents": "define( 'EBML_ID_CUETRACKPOSITIONS', ${1:55} );"
+        },
+        "EBML_ID_FLAGENABLED",
+        {
+            "trigger": "EBML_ID_FLAGENABLED\tWP Define Constants",
+            "contents": "define( 'EBML_ID_FLAGENABLED', ${1:57} );"
+        },
+        "EBML_ID_PIXELHEIGHT",
+        {
+            "trigger": "EBML_ID_PIXELHEIGHT\tWP Define Constants",
+            "contents": "define( 'EBML_ID_PIXELHEIGHT', ${1:58} );"
+        },
+        "EBML_ID_CUEPOINT",
+        {
+            "trigger": "EBML_ID_CUEPOINT\tWP Define Constants",
+            "contents": "define( 'EBML_ID_CUEPOINT', ${1:59} );"
+        },
+        "EBML_ID_CRC32",
+        {
+            "trigger": "EBML_ID_CRC32\tWP Define Constants",
+            "contents": "define( 'EBML_ID_CRC32', ${1:63} );"
+        },
+        "EBML_ID_CLUSTERBLOCKADDITIONID",
+        {
+            "trigger": "EBML_ID_CLUSTERBLOCKADDITIONID\tWP Define Constants",
+            "contents": "define( 'EBML_ID_CLUSTERBLOCKADDITIONID', ${1:75} );"
+        },
+        "EBML_ID_CLUSTERLACENUMBER",
+        {
+            "trigger": "EBML_ID_CLUSTERLACENUMBER\tWP Define Constants",
+            "contents": "define( 'EBML_ID_CLUSTERLACENUMBER', ${1:76} );"
+        },
+        "EBML_ID_CLUSTERFRAMENUMBER",
+        {
+            "trigger": "EBML_ID_CLUSTERFRAMENUMBER\tWP Define Constants",
+            "contents": "define( 'EBML_ID_CLUSTERFRAMENUMBER', ${1:77} );"
+        },
+        "EBML_ID_CLUSTERDELAY",
+        {
+            "trigger": "EBML_ID_CLUSTERDELAY\tWP Define Constants",
+            "contents": "define( 'EBML_ID_CLUSTERDELAY', ${1:78} );"
+        },
+        "EBML_ID_CLUSTERDURATION",
+        {
+            "trigger": "EBML_ID_CLUSTERDURATION\tWP Define Constants",
+            "contents": "define( 'EBML_ID_CLUSTERDURATION', ${1:79} );"
+        },
+        "EBML_ID_TRACKNUMBER",
+        {
+            "trigger": "EBML_ID_TRACKNUMBER\tWP Define Constants",
+            "contents": "define( 'EBML_ID_TRACKNUMBER', ${1:87} );"
+        },
+        "EBML_ID_CUEREFERENCE",
+        {
+            "trigger": "EBML_ID_CUEREFERENCE\tWP Define Constants",
+            "contents": "define( 'EBML_ID_CUEREFERENCE', ${1:91} );"
+        },
+        "EBML_ID_VIDEO",
+        {
+            "trigger": "EBML_ID_VIDEO\tWP Define Constants",
+            "contents": "define( 'EBML_ID_VIDEO', ${1:96} );"
+        },
+        "EBML_ID_AUDIO",
+        {
+            "trigger": "EBML_ID_AUDIO\tWP Define Constants",
+            "contents": "define( 'EBML_ID_AUDIO', ${1:97} );"
+        },
+        "EBML_ID_CLUSTERTIMESLICE",
+        {
+            "trigger": "EBML_ID_CLUSTERTIMESLICE\tWP Define Constants",
+            "contents": "define( 'EBML_ID_CLUSTERTIMESLICE', ${1:104} );"
+        },
+        "EBML_ID_CUECODECSTATE",
+        {
+            "trigger": "EBML_ID_CUECODECSTATE\tWP Define Constants",
+            "contents": "define( 'EBML_ID_CUECODECSTATE', ${1:106} );"
+        },
+        "EBML_ID_CUEREFCODECSTATE",
+        {
+            "trigger": "EBML_ID_CUEREFCODECSTATE\tWP Define Constants",
+            "contents": "define( 'EBML_ID_CUEREFCODECSTATE', ${1:107} );"
+        },
+        "EBML_ID_VOID",
+        {
+            "trigger": "EBML_ID_VOID\tWP Define Constants",
+            "contents": "define( 'EBML_ID_VOID', ${1:108} );"
+        },
+        "EBML_ID_CLUSTERTIMECODE",
+        {
+            "trigger": "EBML_ID_CLUSTERTIMECODE\tWP Define Constants",
+            "contents": "define( 'EBML_ID_CLUSTERTIMECODE', ${1:103} );"
+        },
+        "EBML_ID_CLUSTERBLOCKADDID",
+        {
+            "trigger": "EBML_ID_CLUSTERBLOCKADDID\tWP Define Constants",
+            "contents": "define( 'EBML_ID_CLUSTERBLOCKADDID', ${1:110} );"
+        },
+        "EBML_ID_CUECLUSTERPOSITION",
+        {
+            "trigger": "EBML_ID_CUECLUSTERPOSITION\tWP Define Constants",
+            "contents": "define( 'EBML_ID_CUECLUSTERPOSITION', ${1:113} );"
+        },
+        "EBML_ID_CUETRACK",
+        {
+            "trigger": "EBML_ID_CUETRACK\tWP Define Constants",
+            "contents": "define( 'EBML_ID_CUETRACK', ${1:119} );"
+        },
+        "EBML_ID_CLUSTERREFERENCEPRIORITY",
+        {
+            "trigger": "EBML_ID_CLUSTERREFERENCEPRIORITY\tWP Define Constants",
+            "contents": "define( 'EBML_ID_CLUSTERREFERENCEPRIORITY', ${1:122} );"
+        },
+        "EBML_ID_CLUSTERREFERENCEBLOCK",
+        {
+            "trigger": "EBML_ID_CLUSTERREFERENCEBLOCK\tWP Define Constants",
+            "contents": "define( 'EBML_ID_CLUSTERREFERENCEBLOCK', ${1:123} );"
+        },
+        "EBML_ID_CLUSTERREFERENCEVIRTUAL",
+        {
+            "trigger": "EBML_ID_CLUSTERREFERENCEVIRTUAL\tWP Define Constants",
+            "contents": "define( 'EBML_ID_CLUSTERREFERENCEVIRTUAL', ${1:125} );"
+        },
+        "GETID3_MP3_VALID_CHECK_FRAMES",
+        {
+            "trigger": "GETID3_MP3_VALID_CHECK_FRAMES\tWP Define Constants",
+            "contents": "define( 'GETID3_MP3_VALID_CHECK_FRAMES', ${1:35} );"
+        },
+        "CUSTOM_TAGS",
+        {
+            "trigger": "CUSTOM_TAGS\tWP Define Constants",
+            "contents": "define( 'CUSTOM_TAGS', ${1:false} );"
+        },
+        "WP_LANG_DIR",
+        {
+            "trigger": "WP_LANG_DIR\tWP Define Constants",
+            "contents": "define( 'WP_LANG_DIR', ${1:WP_CONTENT_DIR . '\/languages'} );"
+        },
+        "LANGDIR",
+        {
+            "trigger": "LANGDIR\tWP Define Constants",
+            "contents": "define( 'LANGDIR', ${1:'wp-content\/languages'} );"
+        },
+        "UPLOADBLOGSDIR",
+        {
+            "trigger": "UPLOADBLOGSDIR\tWP Define Constants",
+            "contents": "define( 'UPLOADBLOGSDIR', ${1:'wp-content\/blogs.dir'} );"
+        },
+        "UPLOADS",
+        {
+            "trigger": "UPLOADS\tWP Define Constants",
+            "contents": "define( 'UPLOADS', ${1:UPLOADBLOGSDIR . '\/' . $site_id . '\/files\/'} );"
+        },
+        "BLOGUPLOADDIR",
+        {
+            "trigger": "BLOGUPLOADDIR\tWP Define Constants",
+            "contents": "define( 'BLOGUPLOADDIR', ${1:WP_CONTENT_DIR . '\/blogs.dir\/' . $site_id . '\/files\/'} );"
+        },
+        "WPMU_SENDFILE",
+        {
+            "trigger": "WPMU_SENDFILE\tWP Define Constants",
+            "contents": "define( 'WPMU_SENDFILE', ${1:false} );"
+        },
+        "WPMU_ACCEL_REDIRECT",
+        {
+            "trigger": "WPMU_ACCEL_REDIRECT\tWP Define Constants",
+            "contents": "define( 'WPMU_ACCEL_REDIRECT', ${1:false} );"
+        },
+        "VHOST",
+        {
+            "trigger": "VHOST\tWP Define Constants",
+            "contents": "define( 'VHOST', ${1:SUBDOMAIN_INSTALL ? 'yes' : 'no'} );"
+        },
+        "SUBDOMAIN_INSTALL",
+        {
+            "trigger": "SUBDOMAIN_INSTALL\tWP Define Constants",
+            "contents": "define( 'SUBDOMAIN_INSTALL', ${1:'yes' == VHOST} );"
+        },
+        "PO_MAX_LINE_LEN",
+        {
+            "trigger": "PO_MAX_LINE_LEN\tWP Define Constants",
+            "contents": "define( 'PO_MAX_LINE_LEN', ${1:79} );"
+        },
+        "PHP_VERSION_ID",
+        {
+            "trigger": "PHP_VERSION_ID\tWP Define Constants",
+            "contents": "define( 'PHP_VERSION_ID', ${1:$RandomCompatversion[0] * 10000 + $RandomCompatversion[1] * 100 + $RandomCompatversion[2]} );"
+        },
+        "RANDOM_COMPAT_READ_BUFFER",
+        {
+            "trigger": "RANDOM_COMPAT_READ_BUFFER\tWP Define Constants",
+            "contents": "define( 'RANDOM_COMPAT_READ_BUFFER', ${1:8} );"
+        },
+        "REST_API_VERSION",
+        {
+            "trigger": "REST_API_VERSION\tWP Define Constants",
+            "contents": "define( 'REST_API_VERSION', ${1:'2.0'} );"
+        },
+        "REST_REQUEST",
+        {
+            "trigger": "REST_REQUEST\tWP Define Constants",
+            "contents": "define( 'REST_REQUEST', ${1:true} );"
+        },
+        "EP_NONE",
+        {
+            "trigger": "EP_NONE\tWP Define Constants",
+            "contents": "define( 'EP_NONE', ${1:0} );"
+        },
+        "EP_PERMALINK",
+        {
+            "trigger": "EP_PERMALINK\tWP Define Constants",
+            "contents": "define( 'EP_PERMALINK', ${1:1} );"
+        },
+        "EP_ATTACHMENT",
+        {
+            "trigger": "EP_ATTACHMENT\tWP Define Constants",
+            "contents": "define( 'EP_ATTACHMENT', ${1:2} );"
+        },
+        "EP_DATE",
+        {
+            "trigger": "EP_DATE\tWP Define Constants",
+            "contents": "define( 'EP_DATE', ${1:4} );"
+        },
+        "EP_YEAR",
+        {
+            "trigger": "EP_YEAR\tWP Define Constants",
+            "contents": "define( 'EP_YEAR', ${1:8} );"
+        },
+        "EP_MONTH",
+        {
+            "trigger": "EP_MONTH\tWP Define Constants",
+            "contents": "define( 'EP_MONTH', ${1:16} );"
+        },
+        "EP_DAY",
+        {
+            "trigger": "EP_DAY\tWP Define Constants",
+            "contents": "define( 'EP_DAY', ${1:32} );"
+        },
+        "EP_ROOT",
+        {
+            "trigger": "EP_ROOT\tWP Define Constants",
+            "contents": "define( 'EP_ROOT', ${1:64} );"
+        },
+        "EP_COMMENTS",
+        {
+            "trigger": "EP_COMMENTS\tWP Define Constants",
+            "contents": "define( 'EP_COMMENTS', ${1:128} );"
+        },
+        "EP_SEARCH",
+        {
+            "trigger": "EP_SEARCH\tWP Define Constants",
+            "contents": "define( 'EP_SEARCH', ${1:256} );"
+        },
+        "EP_CATEGORIES",
+        {
+            "trigger": "EP_CATEGORIES\tWP Define Constants",
+            "contents": "define( 'EP_CATEGORIES', ${1:512} );"
+        },
+        "EP_TAGS",
+        {
+            "trigger": "EP_TAGS\tWP Define Constants",
+            "contents": "define( 'EP_TAGS', ${1:1024} );"
+        },
+        "EP_AUTHORS",
+        {
+            "trigger": "EP_AUTHORS\tWP Define Constants",
+            "contents": "define( 'EP_AUTHORS', ${1:2048} );"
+        },
+        "EP_PAGES",
+        {
+            "trigger": "EP_PAGES\tWP Define Constants",
+            "contents": "define( 'EP_PAGES', ${1:4096} );"
+        },
+        "EP_ALL_ARCHIVES",
+        {
+            "trigger": "EP_ALL_ARCHIVES\tWP Define Constants",
+            "contents": "define( 'EP_ALL_ARCHIVES', ${1:EP_DATE | EP_YEAR | EP_MONTH | EP_DAY | EP_CATEGORIES | EP_TAGS | EP_AUTHORS} );"
+        },
+        "EP_ALL",
+        {
+            "trigger": "EP_ALL\tWP Define Constants",
+            "contents": "define( 'EP_ALL', ${1:EP_PERMALINK | EP_ATTACHMENT | EP_ROOT | EP_COMMENTS | EP_SEARCH | EP_PAGES | EP_ALL_ARCHIVES} );"
+        },
+        "RSS",
+        {
+            "trigger": "RSS\tWP Define Constants",
+            "contents": "define( 'RSS', ${1:'RSS'} );"
+        },
+        "ATOM",
+        {
+            "trigger": "ATOM\tWP Define Constants",
+            "contents": "define( 'ATOM', ${1:'Atom'} );"
+        },
+        "MAGPIE_USER_AGENT",
+        {
+            "trigger": "MAGPIE_USER_AGENT\tWP Define Constants",
+            "contents": "define( 'MAGPIE_USER_AGENT', ${1:'WordPress\/' . $GLOBALS['wp_version']} );"
+        },
+        "MAGPIE_INITALIZED",
+        {
+            "trigger": "MAGPIE_INITALIZED\tWP Define Constants",
+            "contents": "define( 'MAGPIE_INITALIZED', ${1:1} );"
+        },
+        "MAGPIE_CACHE_ON",
+        {
+            "trigger": "MAGPIE_CACHE_ON\tWP Define Constants",
+            "contents": "define( 'MAGPIE_CACHE_ON', ${1:1} );"
+        },
+        "MAGPIE_CACHE_DIR",
+        {
+            "trigger": "MAGPIE_CACHE_DIR\tWP Define Constants",
+            "contents": "define( 'MAGPIE_CACHE_DIR', ${1:'.\/cache'} );"
+        },
+        "MAGPIE_CACHE_AGE",
+        {
+            "trigger": "MAGPIE_CACHE_AGE\tWP Define Constants",
+            "contents": "define( 'MAGPIE_CACHE_AGE', ${1:60 * 60} );"
+        },
+        "MAGPIE_CACHE_FRESH_ONLY",
+        {
+            "trigger": "MAGPIE_CACHE_FRESH_ONLY\tWP Define Constants",
+            "contents": "define( 'MAGPIE_CACHE_FRESH_ONLY', ${1:0} );"
+        },
+        "MAGPIE_DEBUG",
+        {
+            "trigger": "MAGPIE_DEBUG\tWP Define Constants",
+            "contents": "define( 'MAGPIE_DEBUG', ${1:0} );"
+        },
+        "MAGPIE_FETCH_TIME_OUT",
+        {
+            "trigger": "MAGPIE_FETCH_TIME_OUT\tWP Define Constants",
+            "contents": "define( 'MAGPIE_FETCH_TIME_OUT', ${1:2} );"
+        },
+        "MAGPIE_USE_GZIP",
+        {
+            "trigger": "MAGPIE_USE_GZIP\tWP Define Constants",
+            "contents": "define( 'MAGPIE_USE_GZIP', ${1:true} );"
+        },
+        "NO_HEADER_TEXT",
+        {
+            "trigger": "NO_HEADER_TEXT\tWP Define Constants",
+            "contents": "define( 'NO_HEADER_TEXT', ${1:empty($args[0]['header-text'])} );"
+        },
+        "HEADER_IMAGE_WIDTH",
+        {
+            "trigger": "HEADER_IMAGE_WIDTH\tWP Define Constants",
+            "contents": "define( 'HEADER_IMAGE_WIDTH', ${1:(int) $args[0]['width']} );"
+        },
+        "HEADER_IMAGE_HEIGHT",
+        {
+            "trigger": "HEADER_IMAGE_HEIGHT\tWP Define Constants",
+            "contents": "define( 'HEADER_IMAGE_HEIGHT', ${1:(int) $args[0]['height']} );"
+        },
+        "HEADER_TEXTCOLOR",
+        {
+            "trigger": "HEADER_TEXTCOLOR\tWP Define Constants",
+            "contents": "define( 'HEADER_TEXTCOLOR', ${1:$args[0]['default-text-color']} );"
+        },
+        "HEADER_IMAGE",
+        {
+            "trigger": "HEADER_IMAGE\tWP Define Constants",
+            "contents": "define( 'HEADER_IMAGE', ${1:$args[0]['default-image']} );"
+        },
+        "BACKGROUND_COLOR",
+        {
+            "trigger": "BACKGROUND_COLOR\tWP Define Constants",
+            "contents": "define( 'BACKGROUND_COLOR', ${1:$args[0]['default-color']} );"
+        },
+        "BACKGROUND_IMAGE",
+        {
+            "trigger": "BACKGROUND_IMAGE\tWP Define Constants",
+            "contents": "define( 'BACKGROUND_IMAGE', ${1:$args[0]['default-image']} );"
+        },
+        "EZSQL_VERSION",
+        {
+            "trigger": "EZSQL_VERSION\tWP Define Constants",
+            "contents": "define( 'EZSQL_VERSION', ${1:'WP1.25'} );"
+        },
+        "OBJECT",
+        {
+            "trigger": "OBJECT\tWP Define Constants",
+            "contents": "define( 'OBJECT', ${1:'OBJECT'} );"
+        },
+        "object",
+        {
+            "trigger": "object\tWP Define Constants",
+            "contents": "define( 'object', ${1:'OBJECT'} );"
+        },
+        "OBJECT_K",
+        {
+            "trigger": "OBJECT_K\tWP Define Constants",
+            "contents": "define( 'OBJECT_K', ${1:'OBJECT_K'} );"
+        },
+        "ARRAY_A",
+        {
+            "trigger": "ARRAY_A\tWP Define Constants",
+            "contents": "define( 'ARRAY_A', ${1:'ARRAY_A'} );"
+        },
+        "ARRAY_N",
+        {
+            "trigger": "ARRAY_N\tWP Define Constants",
+            "contents": "define( 'ARRAY_N', ${1:'ARRAY_N'} );"
+        },
+        "WP_MAIL_INTERVAL",
+        {
+            "trigger": "WP_MAIL_INTERVAL\tWP Define Constants",
+            "contents": "define( 'WP_MAIL_INTERVAL', ${1:300} );"
+        },
+        "MULTISITE",
+        {
+            "trigger": "MULTISITE\tWP Define Constants",
+            "contents": "define( 'MULTISITE', ${1:false} );"
+        },
+        "XMLRPC_REQUEST",
+        {
+            "trigger": "XMLRPC_REQUEST\tWP Define Constants",
+            "contents": "define( 'XMLRPC_REQUEST', ${1:true} );"
+        }
+    ]
+}
