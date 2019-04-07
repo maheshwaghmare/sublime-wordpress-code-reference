@@ -2,18 +2,20 @@
 
 Sublime WordPress Code Reference - Search the codebase for documentation build with devhub https://developer.wordpress.org/.
 
-Generated from WordPress version `5.1.1`. This version contain files `640` .php files and auto generate below sublime snippets.
+Generated from WordPress version `5.1.1`. This WordPress version contain `640` PHP files and  this sublime repository auto generate below sublime snippets.
 
-- [x] Constants (count 1026) @maheshwaghmare
+- [x] Constants @maheshwaghmare
 - [ ] Functions
 - [ ] Actions
 - [ ] Filters
 
-### Summery
+#### Summery
 
 Type | Count
 ------------ | -------------
 CONSTANTS | 1026 |
+
+-----
 
 ### CONSTANTS
 
