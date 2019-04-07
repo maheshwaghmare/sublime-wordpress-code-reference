@@ -27,13 +27,13 @@ You can define the constants like:
 
 **Example 1:**
 
-1. If you type `WP_INSTALLING`
+1. If you type `WP_INSTAL`..
 2. Then it show ![Example](https://i.imgur.com/V2GOPK8.png)
 3. On click on it return `define( 'WP_INSTALLING', true );`
 
 **Example 2:**
 
-1. If you type `PCLZIP_TEMPORARY_FILE_RATIO`
+1. If you type `PCLZIP_TEMPORARY`..
 2. then it show ![Example](https://i.imgur.com/QpVnMRX.png)
 3. On click on it return `define( 'PCLZIP_TEMPORARY_FILE_RATIO', 0.47 );`
 
@@ -47,13 +47,13 @@ You can use the constants like:
 
 **Example 1:**
 
-1. If you type `WP_INSTALLING`
+1. If you type `WP_INST`..
 2. Then it show ![Example](https://i.imgur.com/oNTrJIM.png)
 3. On click on it return `WP_INSTALLING`
 
 **Example 2:**
 
-1. If you type `PCLZIP_TEMPORARY_FILE_RATIO`
+1. If you type `PCLZIP_TEMPORARY`..
 2. then it show ![Example](https://i.imgur.com/uB2SxYs.png)
 3. On click on it return `PCLZIP_TEMPORARY_FILE_RATIO`
 
